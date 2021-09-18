@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: 2px solid black;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.iconContainer {
+  position: absolute;
+  right: 11px;
+  top: 8px;
+  color: #ffb038;
+}
