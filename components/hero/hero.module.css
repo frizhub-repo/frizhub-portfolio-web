@@ -82,4 +82,11 @@
   .prop {
     font-size: 14px;
   }
+  .motiveTextContainer {
+    left: 0;
+    text-align: center;
+  }
+  .motiveText {
+    text-align: start;
+  }
 }

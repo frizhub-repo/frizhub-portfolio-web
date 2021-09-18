@@ -1,12 +1,12 @@
 .itemsContainer {
   list-style-type: none;
   min-width: 300px;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .item {
   transition: all 0.1s ease-in;
-  background-image: linear-gradient(to right, white 50%, black 50%);
+  background-image: linear-gradient(to right, transparent 50%, black 50%);
   background-size: 200% 100%;
   color: black;
   font-size: 18px;
@@ -25,8 +25,13 @@
   margin-right: 10px;
 }
 
+.divider {
+  margin-top: 5px !important;
+  width: 100%;
+}
+
 @media (max-width: 570px) {
   .itemsContainer {
-    min-width: 200px;
+    min-width: 250px;
   }
 }

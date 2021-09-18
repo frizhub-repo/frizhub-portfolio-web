@@ -1,4 +1,4 @@
-import { Drawer } from "@material-ui/core";
+import { Divider, Drawer } from "@material-ui/core";
 import styles from "./customDrawer.module.css";
 
 export default function CustomDrawer({
@@ -17,6 +17,7 @@ export default function CustomDrawer({
           </li>
         ))}
       </ul>
+      <Divider className={styles.divider} />
     </Drawer>
   );
 }
