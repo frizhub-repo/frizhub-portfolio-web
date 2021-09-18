@@ -1,0 +1,85 @@
+.container {
+  position: relative;
+  height: 100vh;
+  margin: 0px auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 30px;
+  font-size: 84px;
+  font-weight: normal;
+}
+
+.propList {
+  list-style-type: none;
+  display: flex;
+}
+
+.prop {
+  text-transform: capitalize;
+  margin-right: 40px;
+}
+
+.motiveTextContainer {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  max-width: 450px;
+}
+
+.motiveText {
+  line-height: 200%;
+  font-weight: 300;
+}
+
+@media (max-width: 1080px) {
+  .header {
+    font-size: 72px;
+  }
+  .motiveText {
+    line-height: 170%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 90%;
+  }
+  .header {
+    font-size: 64px;
+  }
+  .motiveText {
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .prop {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .propList {
+    flex-direction: column;
+  }
+  .motiveText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 570px) {
+  .header {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .prop {
+    font-size: 14px;
+  }
+}
