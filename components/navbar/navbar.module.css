@@ -2,12 +2,11 @@
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-bottom: 1px solid black;
+  border-bottom: 0.5px solid black;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  padding: 0 30px;
 }
 
 .itemsContainer {
@@ -92,6 +91,12 @@
   color: white;
 }
 
+@media (max-width: 900px) {
+  .itemsContainer {
+    max-width: 90%;
+  }
+}
+
 @media (min-width: 740px) {
   .menuBtnOption {
     display: none;
@@ -101,9 +106,6 @@
 @media (max-width: 740px) {
   .infoOption {
     display: none;
-  }
-  .itemsContainer {
-    max-width: 90%;
   }
   .scheduleBtn {
     display: none;
