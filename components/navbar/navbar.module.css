@@ -1,0 +1,130 @@
+.container {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+}
+
+.itemsContainer {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px auto;
+}
+
+.logoContainer {
+  position: relative;
+  width: 150px;
+  height: 70px;
+}
+
+.infoOption {
+  color: black;
+  cursor: pointer;
+}
+
+.infoOption:hover {
+  text-decoration: underline;
+}
+
+.scheduleBtnOption {
+  background-image: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.1s ease-in;
+}
+
+.scheduleBtnOption:hover {
+  background-position: -100% 0%;
+  color: white;
+}
+
+.scheduleBtn {
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  transition: background-position 0.1s ease-in;
+  color: black;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.scheduleBtn:hover {
+  color: white;
+}
+
+.phoneIcon {
+  margin-right: 7px;
+  margin-top: -4px;
+}
+
+.menuBtnOption {
+  background-image: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.1s ease-in;
+}
+
+.menuBtnOption:hover {
+  background-position: -100% 0%;
+}
+
+.menuBtn {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 2px solid black;
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+.menuBtn:hover {
+  color: white;
+}
+
+@media (min-width: 740px) {
+  .menuBtnOption {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) {
+  .infoOption {
+    display: none;
+  }
+  .itemsContainer {
+    max-width: 90%;
+  }
+  .scheduleBtn {
+    display: none;
+  }
+  .menuBtnOption {
+    display: block;
+  }
+}
+
+@media (max-width: 490px) {
+  .container {
+    padding: 0px 20px;
+  }
+  .itemsContainer {
+    max-width: 100%;
+  }
+  .logoContainer {
+    width: 100px;
+    height: 60px;
+  }
+  .menuBtn {
+    padding: 3px;
+  }
+}

@@ -1,7 +1,9 @@
+import Layout from "../components/layout";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Layout title="Frizhub">
+      <h1>Hello</h1>
+    </Layout>
   );
 }
