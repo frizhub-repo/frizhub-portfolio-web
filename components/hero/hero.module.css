@@ -22,6 +22,7 @@
 .prop {
   text-transform: capitalize;
   margin-right: 40px;
+  font-size: 18px;
 }
 
 .motiveTextContainer {
@@ -51,6 +52,9 @@
   }
   .header {
     font-size: 64px;
+  }
+  .prop {
+    font-size: 16px;
   }
   .motiveText {
     line-height: 150%;

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "./navbar/navbar";
+import Footer from "./footer/footer";
 
 export default function Layout({ children, title }) {
   return (
@@ -10,6 +11,7 @@ export default function Layout({ children, title }) {
       <div>
         <Navbar />
         {children}
+        <Footer />
       </div>
     </div>
   );
