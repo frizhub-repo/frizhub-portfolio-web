@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  user-select: none;
+}
+
+.logoContainer {
+  width: 250px;
+  height: 60px;
+  position: relative;
+}
+
+.specs {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.overview {
+  color: white;
+  font-size: 48px;
+  font-weight: normal;
+  margin: 30px 0px;
+}
+
+.viewBtn {
+  color: white;
+  border: none;
+  background-color: transparent;
+  margin: 20px 0px;
+  padding: 0px;
+  transition: all 0.05s ease-in;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.viewBtn:hover {
+  text-decoration: underline;
+}
+
+.arrow {
+  margin-left: 10px;
+  color: #ffb038;
+}
+
+@media (max-width: 1140px) {
+  .container {
+    margin-bottom: 20px;
+  }
+  .overview {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .overview {
+    font-size: 36px;
+  }
+  .logoContainer {
+    width: 220px;
+    height: 50px;
+  }
+  .specs {
+    font-size: 13px;
+  }
+  .viewBtn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .overview {
+    font-size: 32px;
+  }
+  .logoContainer {
+    width: 180px;
+    height: 40px;
+  }
+  .specs {
+    font-size: 12px;
+  }
+  .viewBtn {
+    font-size: 13px;
+  }
+}

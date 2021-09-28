@@ -157,6 +157,9 @@
   .detailHeading {
     margin-bottom: 10px;
   }
+  .contactHeader {
+    font-weight: normal;
+  }
   .detailText {
     max-width: 100%;
     margin-bottom: 20px;
@@ -172,6 +175,7 @@
 @media (max-width: 500px) {
   .detailHeading {
     font-size: 1.4em;
+    font-weight: normal;
   }
   .detailText {
     display: none;

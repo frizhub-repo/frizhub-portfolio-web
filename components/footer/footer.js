@@ -12,7 +12,7 @@ export default function Footer() {
     <div className={styles.container}>
       <div className={styles.blackFooter}></div>
       <div className={styles.footerDesignContainer}>
-        <Image src="/images/footer-design.png" layout="fill" />
+        <Image src="/svgs/footer-design.svg" layout="fill" />
       </div>
       <div className={styles.contentContainer}>
         <div className={styles.contentWrapper}>
