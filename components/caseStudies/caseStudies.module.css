@@ -1,0 +1,66 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.header {
+  font-size: 64px;
+  font-weight: 400;
+  max-width: 70%;
+}
+
+.uniqueText {
+  background: url("/images/unique-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top left;
+  background-clip: text;
+  color: transparent;
+}
+
+.studiesContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex: 0 0 100%;
+  gap: 30px;
+}
+
+.studiesHeader {
+  font-weight: normal;
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+
+.leftStudies {
+  width: 100%;
+}
+
+.rightStudies {
+  width: 100%;
+}
+
+@media (max-width: 1120px) {
+  .header {
+    font-size: 52px;
+  }
+  .studiesHeader {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 90%;
+  }
+  .studiesContainer {
+    gap: 20px;
+  }
+  .header {
+    font-size: 48px;
+  }
+  .studiesHeader {
+    font-size: 36px;
+  }
+}
