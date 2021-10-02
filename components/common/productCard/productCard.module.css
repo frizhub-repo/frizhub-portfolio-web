@@ -1,9 +1,15 @@
 .container {
-  width: 100%;
+  max-width: 450px;
   padding: 20px 30px;
   box-sizing: border-box;
   margin-bottom: 30px;
   user-select: none;
+  position: relative;
+}
+
+.contentContainer {
+  z-index: 5;
+  position: relative;
 }
 
 .logoContainer {
@@ -14,37 +20,62 @@
 
 .specs {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
-  margin-top: 15px;
+  font-size: 12px;
+  margin: 10px 0 20px 0;
 }
 
 .overview {
   color: white;
-  font-size: 48px;
-  font-weight: normal;
-  margin: 30px 0px;
+  font-size: 36px;
+  margin: 10px 0 40px 0;
+}
+
+.viewBtnContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .viewBtn {
   color: white;
   border: none;
   background-color: transparent;
-  margin: 20px 0px;
   padding: 0px;
   transition: all 0.05s ease-in;
-  display: flex;
-  align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
-}
-
-.viewBtn:hover {
-  text-decoration: underline;
+  position: relative;
 }
 
 .arrow {
-  margin-left: 10px;
+  margin-left: 5px;
   color: #ffb038;
+}
+
+.viewBtn:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.15s ease-out;
+}
+
+.viewBtn:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.bottomSvg {
+  position: absolute;
+  width: 70%;
+  height: auto;
+  bottom: 0px;
+  right: 0px;
 }
 
 @media (max-width: 1140px) {
@@ -85,5 +116,42 @@
   }
   .viewBtn {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 750px) {
+  .overview {
+    font-size: 30px;
+  }
+  .logoContainer {
+    width: 160px;
+    height: 35px;
+  }
+  .container {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 670px) {
+  .container {
+    max-width: 350px;
+  }
+  .overview {
+    font-size: 28px;
+  }
+  .logoContainer {
+    width: 150px;
+  }
+  .container {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  .overview {
+    font-size: 24px;
+  }
+  .logoContainer {
+    width: 130px;
   }
 }

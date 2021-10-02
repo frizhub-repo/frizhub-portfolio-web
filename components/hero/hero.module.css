@@ -6,6 +6,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  background-image: url("/svgs/hero-background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 110% 20%;
 }
 
 .header {
@@ -41,6 +45,10 @@
   .header {
     font-size: 72px;
   }
+  .container {
+    background-position: 120% center;
+    background-size: 80% auto;
+  }
   .motiveText {
     line-height: 170%;
   }
@@ -62,6 +70,10 @@
 }
 
 @media (max-width: 700px) {
+  .container {
+    background-size: 80% auto;
+    background-position: 120% 30%;
+  }
   .header {
     font-size: 48px;
     margin-bottom: 20px;
@@ -79,6 +91,10 @@
 }
 
 @media (max-width: 570px) {
+  .container {
+    background-size: 110% auto;
+    background-position: 50% 30%;
+  }
   .header {
     font-size: 32px;
     margin-bottom: 15px;
