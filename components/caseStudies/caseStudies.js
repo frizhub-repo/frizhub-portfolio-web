@@ -24,6 +24,7 @@ export default function CaseStudies() {
               "Brad Desgin UX Design",
             ]}
             overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            bottomSvg="/svgs/studies/study1.svg"
           />
           <ProductCard
             logo="/svgs/contanuity-logo.svg"
@@ -34,6 +35,7 @@ export default function CaseStudies() {
               "Brad Desgin UX Design",
             ]}
             overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            bottomSvg="/svgs/studies/study2.svg"
           />
         </div>
         <div className={styles.rightStudies}>
@@ -46,6 +48,7 @@ export default function CaseStudies() {
               "Brad Desgin UX Design",
             ]}
             overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            bottomSvg="/svgs/studies/study3.svg"
           />
           <ProductCard
             logo="/svgs/contanuity-logo.svg"
@@ -56,6 +59,7 @@ export default function CaseStudies() {
               "Brad Desgin UX Design",
             ]}
             overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            bottomSvg="/svgs/studies/study4.svg"
           />
         </div>
       </div>

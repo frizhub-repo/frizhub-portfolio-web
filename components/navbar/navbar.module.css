@@ -37,7 +37,7 @@
 .scheduleBtnOption {
   background-image: linear-gradient(to right, white 50%, black 50%);
   background-size: 200% 100%;
-  transition: background-position 0.1s ease-in;
+  transition: background-position 0.15s ease-in;
 }
 
 .scheduleBtnOption:hover {
@@ -53,7 +53,7 @@
   font-weight: 700;
   cursor: pointer;
   display: flex;
-  transition: background-position 0.1s ease-in;
+  transition: background-position 0.15s ease-in;
   color: black;
   align-items: center;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
 .menuBtnOption {
   background-image: linear-gradient(to right, white 50%, black 50%);
   background-size: 200% 100%;
-  transition: background-position 0.1s ease-in;
+  transition: background-position 0.15s ease-in;
 }
 
 .menuBtnOption:hover {
