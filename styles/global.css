@@ -18,3 +18,109 @@
   backdrop-filter: blur(4px) !important;
   -webkit-backdrop-filter: blur(4px) !important;
 }
+
+/* Custom Carousel */
+.embla {
+  position: relative;
+  width: 100%;
+}
+.embla__viewport {
+  overflow: hidden;
+  max-width: 100%;
+}
+.embla__container {
+  display: flex;
+  user-select: none;
+  margin-left: -20px;
+}
+.embla__slide {
+  position: relative;
+  padding-left: 20px;
+}
+.embla__slide__inner {
+  position: relative;
+  overflow: hidden;
+  height: 450px;
+}
+.embla__slide__img {
+  width: auto;
+  height: 100%;
+  transition: transform 0.25s ease-in;
+}
+.embla__slide__inner:hover .embla__slide__img {
+  transform: scale(1.1);
+}
+.embla__slide__overlay {
+  position: absolute;
+  background-color: #ffb038;
+  opacity: 0.8;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(100%);
+  transition: transform 0.15s ease-in;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px 20px 30px 20px;
+}
+.embla__slide__overlay__title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.embla__slide__overlay__main {
+  font-size: 2em;
+}
+.embla__slide__inner:hover .embla__slide__overlay {
+  transform: translateY(0%);
+}
+.embla__slide__inner:focus .embla__slide__overlay {
+  transform: translateY(0%);
+}
+
+@media (max-width: 1050px) {
+  .embla__slide__inner {
+    height: 350px;
+  }
+  .embla__slide__overlay__main {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 750px) {
+  .embla__slide__inner {
+    height: 300px;
+  }
+  .embla__slide__overlay__title {
+    font-size: 14px;
+  }
+  .embla__slide__overlay__main {
+    font-size: 1.6em;
+  }
+  .embla__container {
+    margin-left: -10px;
+  }
+  .embla__slide {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  .embla__slide__inner {
+    height: 250px;
+  }
+  .embla__slide__overlay {
+    padding: 10px 20px 10px 10px;
+  }
+  .embla__slide__overlay__main {
+    margin-bottom: 5px;
+  }
+  .embla__slide__overlay__main {
+    font-size: 1.4em;
+  }
+}
