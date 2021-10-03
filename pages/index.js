@@ -11,10 +11,13 @@ export default function Home() {
       <hr />
       <CaseStudies />
       <section className={styles.container}>
-        <h1 className={styles.full_width_text}>It's all about the people</h1>
+        <h1 className={styles.full_width_text}>
+          It&rsquo;s all about the people
+        </h1>
         <CustomCarousel
           slides={Array(10).fill({
             img: "images/members/haroon.jpeg",
+            alt: "Haroon Rasheed",
             overlay: {
               main: "Haroon Rasheed",
               title: "ReactJS Developer",

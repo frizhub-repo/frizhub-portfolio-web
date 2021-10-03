@@ -14,7 +14,11 @@ export default function CustomCarousel({ slides }) {
           {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
               <div className="embla__slide__inner">
-                <img className="embla__slide__img" src={slide.img} />
+                <img
+                  className="embla__slide__img"
+                  src={slide.img}
+                  alt={slide.alt}
+                />
                 {slide.overlay && (
                   <div className="embla__slide__overlay">
                     <p className="embla__slide__overlay__title">
