@@ -1,15 +1,23 @@
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import Navbar from "./navbar/navbar";
 import Footer from "./footer/footer";
 
-export default function Layout({ children, title }) {
+export default function Layout({ children, showNavbar = true }) {
+  const [isTabActive, setIsTabActive] = useState(true);
+
+  useEffect(() => {
+    window.addEventListener("focus", () => setIsTabActive(true));
+    window.addEventListener("blur", () => setIsTabActive(false));
+  }, []);
+
   return (
     <div>
       <Head>
-        <title>{title}</title>
+        <title>{isTabActive ? "Frizhub" : `We miss you...`}</title>
       </Head>
       <div>
-        <Navbar />
+        {showNavbar && <Navbar />}
         {children}
         <Footer />
       </div>
