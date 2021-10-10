@@ -1,0 +1,144 @@
+.hero {
+  overflow-y: scroll;
+  position: relative;
+  animation: animateHero 1.5s;
+}
+
+.contentContainer {
+  width: 80%;
+  margin: 15vh auto 25vh auto;
+  animation: animateContent 3s;
+}
+
+.logoContainer {
+  position: relative;
+  width: 20vw;
+  height: 10vh;
+}
+
+.bottomSvg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: auto;
+}
+
+.specs {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1vw;
+  margin: 10px 0 20px 0;
+}
+
+.overviewContainer {
+  max-width: 80%;
+  margin: 40px 0;
+}
+
+.overview {
+  color: white;
+  font-size: 3.5vw;
+  font-weight: normal;
+}
+
+.carouselContainer {
+  margin-top: -15vh;
+  margin-bottom: 20vh;
+  overflow: hidden;
+  animation: animateCarousel 1s;
+}
+
+@media (max-width: 1080px) {
+  .specs {
+    font-size: 1.4vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .contentContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .logoContainer {
+    width: 25vw;
+  }
+  .specs {
+    font-size: 1.8vw;
+  }
+  .overview {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .carouselContainer {
+    margin-top: -12vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .specs {
+    font-size: 2vw;
+  }
+  .overview {
+    font-size: 4.4vw;
+  }
+  .bottomSvg {
+    width: 40%;
+  }
+}
+
+@media (max-width: 570px) {
+  .logoContainer {
+    width: 35vw;
+    height: 8vh;
+  }
+  .specs {
+    font-size: 3vw;
+    margin: 10px 0;
+  }
+  .overview {
+    font-size: 5.5vw;
+  }
+  .overviewContainer {
+    max-width: 90%;
+  }
+  .contentContainer {
+    margin: 10vh auto 20vh auto;
+  }
+  .carouselContainer {
+    margin-top: -10vh;
+  }
+}
+
+@keyframes animateHero {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes animateContent {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animateCarousel {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

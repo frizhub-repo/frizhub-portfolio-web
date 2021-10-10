@@ -1,0 +1,19 @@
+{
+  "bgColor": "#006ED3",
+  "logo": "/svgs/contanuity-logo.svg",
+  "specs": [
+    "Architecture",
+    "Full Stack Development",
+    "Brad Design UX Design"
+  ],
+  "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+  "bottomSvg": "/svgs/studies/study1.svg",
+  "images": [
+    "/images/studies/contanuity/image1.png",
+    "/images/studies/contanuity/image2.png",
+    "/images/studies/contanuity/image2.png",
+    "/images/studies/contanuity/image2.png",
+    "/images/studies/contanuity/image2.png",
+    "/images/studies/contanuity/image2.png"
+  ]
+}

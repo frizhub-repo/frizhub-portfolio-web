@@ -23,6 +23,12 @@
 .embla {
   position: relative;
   width: 100%;
+  display: flex;
+  align-items: center;
+}
+.embla__prev {
+  margin-right: 5vw !important;
+  margin-left: 20vw !important;
 }
 .embla__viewport {
   overflow: hidden;
@@ -40,7 +46,7 @@
 .embla__slide__inner {
   position: relative;
   overflow: hidden;
-  height: 450px;
+  height: 350px;
 }
 .embla__slide__img {
   width: auto;
@@ -85,7 +91,7 @@
 
 @media (max-width: 1050px) {
   .embla__slide__inner {
-    height: 350px;
+    height: 300px;
   }
   .embla__slide__overlay__main {
     font-size: 1.8em;
@@ -93,8 +99,11 @@
 }
 
 @media (max-width: 750px) {
+  .embla__prev {
+    margin-left: 15vw !important;
+  }
   .embla__slide__inner {
-    height: 300px;
+    height: 250px;
   }
   .embla__slide__overlay__title {
     font-size: 14px;
@@ -111,8 +120,11 @@
 }
 
 @media (max-width: 570px) {
+  .embla__prev {
+    margin-left: 10vw !important;
+  }
   .embla__slide__inner {
-    height: 250px;
+    height: 200px;
   }
   .embla__slide__overlay {
     padding: 10px 20px 10px 10px;
