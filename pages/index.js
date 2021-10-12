@@ -3,6 +3,7 @@ import Hero from "../components/hero/hero";
 import CaseStudies from "../components/caseStudies/caseStudies";
 import CustomCarousel from "../components/common/customCarousel/customCarousel";
 import styles from "../styles/utils.module.css";
+import SecondaryCaseStudies from "../components/caseStudies/secondaryCaseStudies";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <hr />
       <CaseStudies />
+      <SecondaryCaseStudies />
       <section className={styles.container}>
         <h1 className={styles.full_width_text}>
           It&rsquo;s all about the people
