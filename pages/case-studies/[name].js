@@ -1,9 +1,11 @@
-import React from "react";
+import * as React from "react";
 import Layout from "../../components/layout";
 import styles from "./study.module.css";
+import { useRouter } from "next/router";
 import Image from "next/image";
 import { getAllStudies, getStudyData } from "../../lib/caseStudies";
 import CustomCarousel from "../../components/common/customCarousel/customCarousel";
+import CancelOutlinedIcon from "@material-ui/icons/CancelOutlined";
 
 export default function CaseStudy({
   logo,
@@ -13,10 +15,34 @@ export default function CaseStudy({
   bottomSvg,
   images,
 }) {
+  const router = useRouter();
+  const [isGoingBack, setIsGoingBack] = React.useState(false);
+
+  function handleBackClick() {
+    setIsGoingBack(true);
+    setTimeout(() => {
+      router.back();
+    }, [3000]);
+  }
+
   return (
     <Layout showNavbar={false}>
-      <div className={styles.hero} style={{ background: bgColor }}>
-        <div className={styles.contentContainer}>
+      <div
+        className={`${styles.hero} ${isGoingBack && styles.backHero}`}
+        style={{ background: bgColor }}
+      >
+        <CancelOutlinedIcon
+          fontSize="large"
+          className={`${styles.cancelBtn} ${
+            isGoingBack && styles.backCancelBtn
+          }`}
+          onClick={handleBackClick}
+        />
+        <div
+          className={`${styles.contentContainer} ${
+            isGoingBack && styles.backContentContainer
+          }`}
+        >
           <div className={styles.logoContainer}>
             <Image src={logo} layout="fill" />
           </div>
@@ -33,7 +59,11 @@ export default function CaseStudy({
         </div>
         <img src={bottomSvg} className={styles.bottomSvg} />
       </div>
-      <div className={styles.carouselContainer}>
+      <div
+        className={`${styles.carouselContainer} ${
+          isGoingBack && styles.backCarouselContainer
+        }`}
+      >
         <CustomCarousel
           showLeftButton
           slides={images?.map((image) => ({

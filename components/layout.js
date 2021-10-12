@@ -16,7 +16,7 @@ export default function Layout({ children, showNavbar = true }) {
       <Head>
         <title>{isTabActive ? "Frizhub" : `We miss you...`}</title>
       </Head>
-      <div>
+      <div style={{ overflow: "hidden" }}>
         {showNavbar && <Navbar />}
         {children}
         <Footer />
