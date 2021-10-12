@@ -4,10 +4,40 @@
   animation: animateHero 1.5s;
 }
 
+.backHero {
+  animation-name: backAnimateHero;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.cancelBtn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+  animation: animateCancelBtn 3s;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.backCancelBtn {
+  animation: backCancelBtn 3s ease-in;
+}
+
+.cancelBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .contentContainer {
   width: 80%;
   margin: 15vh auto 25vh auto;
   animation: animateContent 3s;
+}
+
+.backContentContainer {
+  animation: backAnimateContent 3s;
 }
 
 .logoContainer {
@@ -45,7 +75,13 @@
   margin-top: -15vh;
   margin-bottom: 20vh;
   overflow: hidden;
-  animation: animateCarousel 1s;
+  animation: animateCarousel 1.5s;
+}
+
+.backCarouselContainer {
+  animation-name: backAnimateCarousel;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
 }
 
 @media (max-width: 1080px) {
@@ -140,5 +176,50 @@
   }
   to {
     transform: translateX(0%);
+  }
+}
+
+@keyframes animateCancelBtn {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes backCancelBtn {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes backAnimateContent {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes backAnimateHero {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes backAnimateCarousel {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
   }
 }
