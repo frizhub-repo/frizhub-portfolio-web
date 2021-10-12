@@ -4,6 +4,7 @@ import ArrowRightAltOutlinedIcon from "@material-ui/icons/ArrowRightAltOutlined"
 import styles from "./productCard.module.css";
 
 export default function ProductCard({
+  color,
   logo,
   bgColor,
   specs,
@@ -18,18 +19,22 @@ export default function ProductCard({
           <Image src={logo} layout="fill" />
         </div>
         <div>
-          <p className={styles.specs}>
+          <p className={styles.specs} style={{ color: color ?? "" }}>
             {specs?.map((spec, index) =>
               index === specs.length - 1 ? spec : `${spec}, `
             )}
           </p>
         </div>
         <div>
-          <h3 className={styles.overview}>{overview}</h3>
+          <h3 className={styles.overview} style={{ color: color ?? "" }}>
+            {overview}
+          </h3>
         </div>
         <Link href={linkTo}>
           <div className={styles.viewBtnContainer}>
-            <button className={styles.viewBtn}>View Casestudy</button>
+            <button className={styles.viewBtn} style={{ color: color ?? "" }}>
+              View Casestudy
+            </button>
             <ArrowRightAltOutlinedIcon
               className={styles.arrow}
               fontSize="large"
