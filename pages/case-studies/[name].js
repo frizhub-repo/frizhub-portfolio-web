@@ -22,7 +22,7 @@ export default function CaseStudy({
     setIsGoingBack(true);
     setTimeout(() => {
       router.back();
-    }, [2000]);
+    }, [1000]);
   }
 
   return (
