@@ -6,8 +6,8 @@
 
 .backHero {
   animation-name: backAnimateHero;
-  animation-duration: 1s;
-  animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .cancelBtn {
@@ -23,7 +23,7 @@
 }
 
 .backCancelBtn {
-  animation: backCancelBtn 2s ease-in;
+  animation: backCancelBtn 1s ease-in;
 }
 
 .cancelBtn:hover {
@@ -37,7 +37,7 @@
 }
 
 .backContentContainer {
-  animation: backAnimateContent 2s;
+  animation: backAnimateContent 1s;
 }
 
 .logoContainer {
@@ -80,8 +80,8 @@
 
 .backCarouselContainer {
   animation-name: backAnimateCarousel;
-  animation-duration: 1s;
-  animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 
 @media (max-width: 1080px) {

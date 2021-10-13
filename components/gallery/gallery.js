@@ -13,6 +13,7 @@ export default function Gallery() {
         <img className={styles.image} src="/images/gallery/image3.png" />
         <img className={styles.image} src="/images/gallery/image4.png" />
         <img className={styles.image} src="/images/gallery/image5.png" />
+        <img className={styles.image} src="/images/gallery/image6.png" />
       </div>
     </div>
   );
