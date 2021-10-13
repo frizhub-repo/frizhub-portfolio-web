@@ -6,13 +6,14 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import styles from "./footer.module.css";
 import CustomInput from "../common/customInput/customInput";
+import FooterImage from "../../public/svgs/footer-design.svg";
 
 export default function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.blackFooter}></div>
       <div className={styles.footerDesignContainer}>
-        <Image src="/svgs/footer-design.svg" layout="fill" />
+        <Image src={FooterImage} layout="fill" />
       </div>
       <div className={styles.contentContainer}>
         <div className={styles.contentWrapper}>
