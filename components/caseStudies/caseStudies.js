@@ -1,6 +1,5 @@
 import ProductCard from "../common/productCard/productCard";
 import styles from "./caseStudies.module.css";
-import Fade from "react-reveal/Fade";
 import { Element } from "react-scroll";
 
 export default function CaseStudies() {
@@ -18,64 +17,56 @@ export default function CaseStudies() {
               <br />
               Case Studies
             </h2>
-            <Fade bottom>
-              <ProductCard
-                logo="/svgs/contanuity-logo.svg"
-                bgColor="#006ED3"
-                specs={[
-                  "Architechture",
-                  "Full Stack Development",
-                  "Brad Desgin UX Design",
-                ]}
-                overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-                bottomSvg="/svgs/studies/study1.svg"
-                linkTo="case-studies/contanuity"
-              />
-            </Fade>
-            <Fade bottom>
-              <ProductCard
-                logo="/svgs/contanuity-logo.svg"
-                bgColor="#000"
-                specs={[
-                  "Architechture",
-                  "Full Stack Development",
-                  "Brad Desgin UX Design",
-                ]}
-                overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-                bottomSvg="/svgs/studies/study2.svg"
-                linkTo="case-studies/contanuity"
-              />
-            </Fade>
+            <ProductCard
+              logo="/svgs/contanuity-logo.svg"
+              bgColor="#006ED3"
+              specs={[
+                "Architechture",
+                "Full Stack Development",
+                "Brad Desgin UX Design",
+              ]}
+              overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              bottomSvg="/svgs/studies/study1.svg"
+              linkTo="case-studies/contanuity"
+            />
+            <ProductCard
+              logo="/svgs/contanuity-logo.svg"
+              bgColor="#000"
+              specs={[
+                "Architechture",
+                "Full Stack Development",
+                "Brad Desgin UX Design",
+              ]}
+              overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              bottomSvg="/svgs/studies/study2.svg"
+              linkTo="case-studies/contanuity"
+            />
           </div>
           <div className={styles.rightStudies}>
-            <Fade bottom>
-              <ProductCard
-                logo="/svgs/contanuity-logo.svg"
-                bgColor="#279F97"
-                specs={[
-                  "Architechture",
-                  "Full Stack Development",
-                  "Brad Desgin UX Design",
-                ]}
-                overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-                bottomSvg="/svgs/studies/study3.svg"
-                linkTo="case-studies/contanuity"
-              />
-            </Fade>
-            <Fade bottom>
-              <ProductCard
-                logo="/svgs/contanuity-logo.svg"
-                bgColor="#FA83A0"
-                specs={[
-                  "Architechture",
-                  "Full Stack Development",
-                  "Brad Desgin UX Design",
-                ]}
-                overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-                bottomSvg="/svgs/studies/study4.svg"
-                linkTo="case-studies/contanuity"
-              />
-            </Fade>
+            <ProductCard
+              logo="/svgs/contanuity-logo.svg"
+              bgColor="#279F97"
+              specs={[
+                "Architechture",
+                "Full Stack Development",
+                "Brad Desgin UX Design",
+              ]}
+              overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              bottomSvg="/svgs/studies/study3.svg"
+              linkTo="case-studies/contanuity"
+            />
+            <ProductCard
+              logo="/svgs/contanuity-logo.svg"
+              bgColor="#FA83A0"
+              specs={[
+                "Architechture",
+                "Full Stack Development",
+                "Brad Desgin UX Design",
+              ]}
+              overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              bottomSvg="/svgs/studies/study4.svg"
+              linkTo="case-studies/contanuity"
+            />
           </div>
         </div>
       </div>
