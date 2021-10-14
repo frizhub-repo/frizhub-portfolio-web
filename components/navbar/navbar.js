@@ -5,20 +5,34 @@ import MenuIcon from "@material-ui/icons/Menu";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import PhoneAndroidOutlinedIcon from "@material-ui/icons/PhoneAndroidOutlined";
 import CustomDrawer from "../customDrawer/customDrawer";
+import { Link, scroller } from "react-scroll";
 
 export default function Navbar() {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
+
+  function handleScheduleClick() {
+    window.open("https://calendly.com/azaz/30min");
+  }
+
+  function handleInfoClick() {
+    scroller.scrollTo("caseStudies", { smooth: true });
+  }
 
   return (
     <>
       <div className={styles.container}>
         <ul className={styles.itemsContainer}>
-          <li className={styles.infoOption}>What we do?</li>
+          <li className={styles.infoOption} onClick={handleInfoClick}>
+            What we do?
+          </li>
           <li className={styles.logoContainer}>
             <Image src="/svgs/frizhub.svg" layout="fill" />
           </li>
           <li className={styles.scheduleBtnOption}>
-            <button className={styles.scheduleBtn}>
+            <button
+              className={styles.scheduleBtn}
+              onClick={handleScheduleClick}
+            >
               <span className={styles.phoneIcon}>&#9742;</span> Schedule a call
             </button>
           </li>
@@ -36,11 +50,15 @@ export default function Navbar() {
         isOpen={isDrawerOpen}
         setIsOpen={setIsDrawerOpen}
         items={[
-          { name: "What we do", icon: <InfoOutlinedIcon />, onClick: () => {} },
+          {
+            name: "What we do",
+            icon: <InfoOutlinedIcon />,
+            onClick: handleInfoClick,
+          },
           {
             name: "Schedule a call",
             icon: <PhoneAndroidOutlinedIcon />,
-            onClick: () => {},
+            onClick: handleScheduleClick,
           },
         ]}
       />
