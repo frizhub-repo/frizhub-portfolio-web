@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 110% 20%;
-  animation: reveal 1s;
 }
 
 .header {
@@ -109,14 +108,5 @@
   }
   .motiveText {
     text-align: start;
-  }
-}
-
-@keyframes reveal {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
