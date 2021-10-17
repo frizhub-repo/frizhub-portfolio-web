@@ -19,6 +19,10 @@ export default function CaseStudy({
   const [isGoingBack, setIsGoingBack] = React.useState(false);
 
   function handleBackClick() {
+    router.beforePopState((state) => {
+      state.options.scroll = false;
+      return true;
+    });
     setIsGoingBack(true);
     setTimeout(() => {
       router.back();
