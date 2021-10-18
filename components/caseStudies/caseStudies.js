@@ -20,16 +20,16 @@ export default function CaseStudies() {
             </h2>
             <Fade bottom>
               <ProductCard
-                logo="/svgs/contanuity-logo.svg"
+                logo="/svgs/studies/hyphen.png"
                 bgColor="#006ED3"
                 specs={[
                   "Architechture",
                   "Full Stack Development",
                   "Brad Desgin UX Design",
                 ]}
-                overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+                overview="Improving the scale of digitized health care and furnishing modern-era custom build white label bridge between doctors and patients."
                 bottomSvg="/svgs/studies/study1.svg"
-                linkTo="case-studies/contanuity"
+                linkTo="https://drive.google.com/file/d/1lpKLtmInKcTgXia4gzHnjZY4WdIkei3X/view?usp=sharing"
               />
             </Fade>
             <Fade bottom>

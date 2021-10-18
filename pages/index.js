@@ -19,14 +19,47 @@ export default function Home() {
           It&rsquo;s all about the people
         </h1>
         <CustomCarousel
-          slides={Array(10).fill({
-            img: "images/members/haroon.jpeg",
-            alt: "Haroon Rasheed",
+          slides={[{
+            img: "images/members/tabish.png",
+            alt: "Tabish Munir",
             overlay: {
-              main: "Haroon Rasheed",
-              title: "ReactJS Developer",
+              main: "Tabish Munir",
+              title: "CEO",
             },
-          })}
+          },
+          {
+            img: "images/members/azaz.jpg",
+            alt: "Azaz Ahmed",
+            overlay: {
+              main: "Azaz Ahmed",
+              title: "Engineering Head",
+            },
+          },
+          {
+            img: "images/members/waqas.png",
+            alt: "Waqas Iqbal",
+            overlay: {
+              main: "Waqas Iqbal",
+              title: "Solution Architect",
+            },
+          },
+          {
+            img: "images/members/atif.png",
+            alt: "Atif Sikander",
+            overlay: {
+              main: "Atif Sikander",
+              title: "Blockchain Engineer",
+            },
+          },
+          {
+            img: "images/members/huzaifa.png",
+            alt: "Huzaifa Imran",
+            overlay: {
+              main: "Huzaifa Imran",
+              title: "Web Engineer",
+            },
+          },
+        ]}
         />
       </section>
     </Layout>
