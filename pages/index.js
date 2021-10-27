@@ -28,7 +28,7 @@ export default function Home() {
             },
           },
           {
-            img: "images/members/azaz.jpg",
+            img: "images/members/azaz.JPG",
             alt: "Azaz Ahmed",
             overlay: {
               main: "Azaz Ahmed",
