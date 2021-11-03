@@ -1,11 +1,10 @@
-import Image from "next/image";
 import styles from "./hero.module.css";
 
 export default function Hero() {
   return (
     <div className={styles.container}>
       <div>
-        <h1 className={styles.header}>Our Mantra is Simple!</h1>
+        <h1 className={styles.header}>Custom Software Development</h1>
         <ul className={styles.propList}>
           <li className={styles.prop}>
             <span>&#9889;</span> move fast
