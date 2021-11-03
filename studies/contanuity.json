@@ -9,11 +9,11 @@
   "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
   "bottomSvg": "/svgs/studies/study1.svg",
   "images": [
-    "/images/studies/contanuity/image1.png",
-    "/images/studies/contanuity/image2.png",
-    "/images/studies/contanuity/image2.png",
-    "/images/studies/contanuity/image2.png",
-    "/images/studies/contanuity/image2.png",
-    "/images/studies/contanuity/image2.png"
+    "/images/gallery/image1.png",
+    "/images/gallery/image2.png",
+    "/images/gallery/image2.png",
+    "/images/gallery/image2.png",
+    "/images/gallery/image2.png",
+    "/images/gallery/image2.png"
   ]
 }
