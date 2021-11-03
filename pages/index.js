@@ -20,7 +20,7 @@ export default function Home() {
         </h1>
         <CustomCarousel
           slides={[{
-            img: "images/members/tabish.png",
+            img: "images/members/tb.png",
             alt: "Tabish Munir",
             overlay: {
               main: "Tabish Munir",
@@ -28,7 +28,7 @@ export default function Home() {
             },
           },
           {
-            img: "images/members/azaz.JPG",
+            img: "images/members/aza.jpg",
             alt: "Azaz Ahmed",
             overlay: {
               main: "Azaz Ahmed",

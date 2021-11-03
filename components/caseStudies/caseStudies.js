@@ -20,7 +20,7 @@ export default function CaseStudies() {
             </h2>
             <Fade bottom>
               <ProductCard
-                logo="/svgs/studies/hyphen.png"
+                logo="/svgs/hyphen.svg"
                 bgColor="#006ED3"
                 specs={[
                   "Architechture",
@@ -34,46 +34,46 @@ export default function CaseStudies() {
             </Fade>
             <Fade bottom>
               <ProductCard
-                logo="/svgs/contanuity-logo.svg"
+                logo="/svgs/dawiyni.svg"
                 bgColor="#000"
                 specs={[
                   "Architechture",
                   "Full Stack Development",
                   "Brad Desgin UX Design",
                 ]}
-                overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+                overview="Built with our white label solution, Dawiyini is a multi-lingual telemedicine company based out of Mautitania. Dawiyini aims to connect people in distant areas for tele-consultation and advise"
                 bottomSvg="/svgs/studies/study2.svg"
-                linkTo="case-studies/contanuity"
+                linkTo="https://www.dawiyni.com"
               />
             </Fade>
           </div>
           <div className={styles.rightStudies}>
             <Fade bottom>
               <ProductCard
-                logo="/svgs/contanuity-logo.svg"
+                logo="/svgs/nosghy.svg"
                 bgColor="#279F97"
                 specs={[
                   "Architechture",
                   "Full Stack Development",
                   "Brad Desgin UX Design",
                 ]}
-                overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+                overview="Nosghy, focused towards mental health, is a telemedicine platform connecting doctors and patients for video/audio consultation and remote seminars for mental health"
                 bottomSvg="/svgs/studies/study3.svg"
-                linkTo="case-studies/contanuity"
+                linkTo="#"
               />
             </Fade>
             <Fade bottom>
               <ProductCard
-                logo="/svgs/contanuity-logo.svg"
+                logo="/svgs/EHR.svg"
                 bgColor="#FA83A0"
                 specs={[
                   "Architechture",
                   "Full Stack Development",
                   "Brad Desgin UX Design",
                 ]}
-                overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+                overview="Fully compliant with HIPPA and EHR, the solution lets patients keep their medical history journaled for easy access for the health specialists"
                 bottomSvg="/svgs/studies/study4.svg"
-                linkTo="case-studies/contanuity"
+                linkTo="#"
               />
             </Fade>
           </div>
