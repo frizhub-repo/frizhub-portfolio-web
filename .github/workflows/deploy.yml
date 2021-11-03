@@ -17,5 +17,5 @@ jobs:
         uses: dokku/github-action@master
         with:
           branch: "master"
-          git_remote_url: "ssh://dokku@3.139.75.18:frizhub-web"
+          git_remote_url: "ssh://dokku@3.139.75.18:22/frizhub-web"
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
