@@ -13,7 +13,7 @@ export default function ProductCard({
   linkTo,
 }) {
   return (
-    <div style={{ background: bgColor }} className={styles.container}>
+    <div className={`${styles.container} ${styles.uniqueText}`}>
       <div className={styles.contentContainer}>
         <div className={styles.logoContainer}>
           <Image src={logo} layout="fill" />
