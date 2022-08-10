@@ -8,7 +8,7 @@ import Gallery from "../components/gallery/gallery";
 
 export default function Home() {
   return (
-    <Layout title="Frizhub">
+    <Layout title="FrizHub">
       <Hero />
       <hr />
       <CaseStudies />
@@ -16,11 +16,11 @@ export default function Home() {
       <SecondaryCaseStudies />
       <section className={styles.container}>
         <h1 className={styles.full_width_text}>
-          It&rsquo;s all about the people
+          It's all about the people.
         </h1>
         <CustomCarousel
           slides={[{
-            img: "images/members/tb.png",
+            img: "images/members/tabish.png",
             alt: "Tabish Munir",
             overlay: {
               main: "Tabish Munir",
@@ -32,15 +32,23 @@ export default function Home() {
             alt: "Azaz Ahmed",
             overlay: {
               main: "Azaz Ahmed",
-              title: "Engineering Head",
+              title: "CTO",
             },
           },
           {
-            img: "images/members/waqas.png",
-            alt: "Waqas Iqbal",
+            img: "images/members/umer-qaiser.jpg",
+            alt: "Umer Qaiser",
             overlay: {
-              main: "Waqas Iqbal",
-              title: "Solution Architect",
+              main: "Umer Qaiser",
+              title: "Engineering Manager",
+            },
+          },
+          {
+            img: "images/members/omer-faqiyan.jpg",
+            alt: "Omer Faqiyan",
+            overlay: {
+              main: "Omer Faqiyan",
+              title: "Project Manager",
             },
           },
           {

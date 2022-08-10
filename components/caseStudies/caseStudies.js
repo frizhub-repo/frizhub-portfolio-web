@@ -9,7 +9,7 @@ export default function CaseStudies() {
       <div className={styles.container} id="studiesContainer">
         <h1 className={styles.header}>
           Every product is <span className={styles.uniqueText}>unique,</span>{" "}
-          but so is our tailor made processes
+          but so are our tailor-made processes.
         </h1>
         <div className={styles.studiesContainer}>
           <div className={styles.leftStudies}>

@@ -11,7 +11,26 @@
   z-index: 5;
   position: relative;
 }
-
+.uniqueText {
+  background: url("/images/unique-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  animation: uniqueTextAnimate 50s 0s infinite;
+}
+@keyframes uniqueTextAnimate {
+  from {
+    background-position: top left;
+  }
+  50% {
+    background-position: bottom left;
+  }
+  to {
+    background-position: top left;
+  }
+}
 .logoContainer {
   width: 250px;
   height: 60px;
