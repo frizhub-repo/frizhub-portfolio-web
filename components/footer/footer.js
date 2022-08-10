@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
             <div className={styles.socialIconsContainer}>
               <Link target="_blank" href="https://www.linkedin.com/company/frizhub">
-              <IconButton >
+              <IconButton>
                 <LinkedInIcon className={styles.socialIcon} />
               </IconButton>
               </Link>
