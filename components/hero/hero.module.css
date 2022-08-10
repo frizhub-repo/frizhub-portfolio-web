@@ -21,6 +21,8 @@
 .propList {
   list-style-type: none;
   display: flex;
+  flex-direction: column;
+  line-height: 2.2;
 }
 
 .prop {
