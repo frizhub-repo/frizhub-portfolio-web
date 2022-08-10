@@ -16,7 +16,7 @@ export default function Home() {
       <SecondaryCaseStudies />
       <section className={styles.container}>
         <h1 className={styles.full_width_text}>
-          It's all about the people.
+          It&apos;s all about the people.
         </h1>
         <CustomCarousel
           slides={[{
