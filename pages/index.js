@@ -28,7 +28,7 @@ export default function Home() {
             },
           },
           {
-            img: "images/members/aza.jpg",
+            img: "images/members/azazfz.jpg",
             alt: "Azaz Ahmed",
             overlay: {
               main: "Azaz Ahmed",
@@ -57,14 +57,6 @@ export default function Home() {
             overlay: {
               main: "Atif Sikander",
               title: "Blockchain Engineer",
-            },
-          },
-          {
-            img: "images/members/huzaifa.png",
-            alt: "Huzaifa Imran",
-            overlay: {
-              main: "Huzaifa Imran",
-              title: "Web Engineer",
             },
           },
         ]}
