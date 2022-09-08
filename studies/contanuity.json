@@ -1,11 +1,7 @@
 {
   "bgColor": "#006ED3",
   "logo": "/svgs/contanuity-logo.svg",
-  "specs": [
-    "Architecture",
-    "Full Stack Development",
-    "Brad Design UX Design"
-  ],
+  "specs": ["Architecture", "Full Stack Development", "Brad Design UX Design"],
   "overview": "SAAS app that helps B2B clients identify leads with an intent signal. It enables the customers to expand lead generation with direct visibility into early intent signals",
   "bottomSvg": "/svgs/studies/study1.svg",
   "images": [

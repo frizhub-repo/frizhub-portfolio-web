@@ -30,7 +30,7 @@ export default function CaseStudy({
     <Layout showNavbar={false}>
       <div
         className={`${styles.hero} ${isGoingBack && styles.backHero}`}
-        style={{ background: bgColor}}
+        style={{ background: bgColor }}
       >
         <CancelOutlinedIcon
           fontSize="large"
@@ -48,14 +48,16 @@ export default function CaseStudy({
             <Image src={logo} layout="fill" />
           </div>
           <div>
-            <p className={styles.specs} style = {{color : color}}>
+            <p className={styles.specs} style={{ color: color }}>
               {specs?.map((spec, index) =>
                 index === specs.length - 1 ? spec : `${spec}, `
               )}
             </p>
           </div>
           <div className={styles.overviewContainer}>
-            <h2 className={styles.overview} style = {{color : color}}>{overview}</h2>
+            <h2 className={styles.overview} style={{ color: color }}>
+              {overview}
+            </h2>
           </div>
         </div>
         <img src={bottomSvg} className={styles.bottomSvg} />
