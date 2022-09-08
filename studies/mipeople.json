@@ -1,0 +1,20 @@
+{
+    "bgColor": "#279F97",
+    "logo": "/svgs/mipeople.svg",
+    "specs": [
+      "Architecture",
+      "Full Stack Development",
+      "Brad Design UX Design"
+    ],
+    "overview": "Mipeople aims to improve the nonprofit industry through implementation of innovative technology in the donation process",
+    "bottomSvg": "/svgs/studies/study3.svg",
+    "images": [
+      "/images/gallery/image1.png",
+      "/images/gallery/image2.png",
+      "/images/gallery/image2.png",
+      "/images/gallery/image2.png",
+      "/images/gallery/image2.png",
+      "/images/gallery/image2.png"
+    ]
+  }
+  

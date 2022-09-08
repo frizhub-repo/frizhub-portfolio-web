@@ -1,0 +1,22 @@
+{
+    "bgColor": "#F9F9F9",
+    "logo": "/svgs/vakeelonline.svg",
+    "specs": [
+      "Architecture",
+      "Full Stack Development",
+      "Brad Design UX Design"
+    ],
+    "overview": "Pakistan's first ever digital legal forum built by well known Non Profit the Justice Project Pakistan",
+    "bottomSvg": "/svgs/studies/study2.svg",
+    "images": [
+      "/images/gallery/image1.png",
+      "/images/gallery/image2.png",
+      "/images/gallery/image2.png",
+      "/images/gallery/image2.png",
+      "/images/gallery/image2.png",
+      "/images/gallery/image2.png"
+    ]
+    ,
+    "color" : "black"
+  }
+  

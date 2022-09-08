@@ -37,7 +37,7 @@ export default function SecondaryCaseStudies() {
                 ]}
                 overview="Pakistan's first ever digital legal forum built by well known Non Profit the Justice Project Pakistan"
                 bottomSvg="/svgs/studies/study2.svg"
-                linkTo="https://vakeelonline.pk/"
+                linkTo="case-studies/vakeel"
                 color="black"
               />
             </Fade>
@@ -54,7 +54,7 @@ export default function SecondaryCaseStudies() {
                 ]}
                 overview="Mipeople aims to improve the nonprofit industry through implementation of innovative technology in the donation process"
                 bottomSvg="/svgs/studies/study3.svg"
-                linkTo="https://mipeople.org/"
+                linkTo="case-studies/mipeople"
               />
             </Fade>
             <Fade bottom>
@@ -68,7 +68,7 @@ export default function SecondaryCaseStudies() {
                 ]}
                 overview="Voor’s SaaS based virtual showrooms are designed to enable Augmented reality in conventional ecommerce stores"
                 bottomSvg="/svgs/studies/study4.svg"
-                linkTo="https://www.voor3d.com/"
+                linkTo="case-studies/voor3d"
               />
             </Fade>
           </div>
