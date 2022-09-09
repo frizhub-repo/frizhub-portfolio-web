@@ -6,6 +6,8 @@ import Image from "next/image";
 import { getAllStudies, getStudyData } from "../../lib/caseStudies";
 import CustomCarousel from "../../components/common/customCarousel/customCarousel";
 import CancelOutlinedIcon from "@material-ui/icons/CancelOutlined";
+import Link from "next/link";
+import ArrowRightAltOutlinedIcon from "@material-ui/icons/ArrowRightAltOutlined";
 
 export default function CaseStudy({
   logo,
@@ -14,6 +16,8 @@ export default function CaseStudy({
   overview,
   bottomSvg,
   images,
+  color,
+  webLink,
 }) {
   const router = useRouter();
   const [isGoingBack, setIsGoingBack] = React.useState(false);
@@ -47,15 +51,29 @@ export default function CaseStudy({
             <Image src={logo} layout="fill" />
           </div>
           <div>
-            <p className={styles.specs}>
+            <p className={styles.specs} style={{ color: color ?? "" }}>
               {specs?.map((spec, index) =>
                 index === specs.length - 1 ? spec : `${spec}, `
               )}
             </p>
           </div>
           <div className={styles.overviewContainer}>
-            <h2 className={styles.overview}>{overview}</h2>
+            <h2 className={styles.overview} style={{ color: color ?? "" }}>
+              {overview}
+            </h2>
           </div>
+          <Link href={webLink}>
+            <div className={styles.viewBtnContainer}>
+              <button className={styles.viewBtn} style={{ color: color ?? "" }}>
+                Go to Website
+              </button>
+              <ArrowRightAltOutlinedIcon
+                className={styles.arrow}
+                fontSize="large"
+                z-indez="1"
+              />
+            </div>
+          </Link>
         </div>
         <img src={bottomSvg} className={styles.bottomSvg} />
       </div>

@@ -4,9 +4,10 @@
   "specs": [
     "Architecture",
     "Full Stack Development",
-    "Brad Design UX Design"
+    "Brand Design",
+    "UX Design"
   ],
-  "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+  "overview": "SAAS app that helps B2B clients identify leads with an intent signal. It enables the customers to expand lead generation with direct visibility into early intent signals",
   "bottomSvg": "/svgs/studies/study1.svg",
   "images": [
     "/images/gallery/image1.png",
@@ -15,5 +16,6 @@
     "/images/gallery/image2.png",
     "/images/gallery/image2.png",
     "/images/gallery/image2.png"
-  ]
+  ],
+  "webLink": "https://www.contanuity.com/"
 }

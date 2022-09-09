@@ -12,9 +12,11 @@ export default function ProductCard({
   bottomSvg,
   linkTo,
 }) {
-  
   return (
-    <div style={{ background: bgColor }} className={`${styles.uniqueText} ${styles.container }`}>
+    <div
+      style={{ background: bgColor }}
+      className={`${styles.uniqueText} ${styles.container}`}
+    >
       <div className={styles.contentContainer}>
         <div className={styles.logoContainer}>
           <Image src={logo} layout="fill" />
