@@ -25,7 +25,8 @@ export default function CaseStudies() {
                 specs={[
                   "Architechture",
                   "Full Stack Development",
-                  "Brad Desgin UX Design",
+                  "Brand Desgin",
+                  "UX Design",
                 ]}
                 overview="Improving the scale of digitized health care and furnishing modern-era custom build white label bridge between doctors and patients."
                 bottomSvg="/svgs/studies/study1.svg"
@@ -39,7 +40,8 @@ export default function CaseStudies() {
                 specs={[
                   "Architechture",
                   "Full Stack Development",
-                  "Brad Desgin UX Design",
+                  "Brand Desgin",
+                  "UX Design",
                 ]}
                 overview="Built with our white label solution, Dawiyini is a multi-lingual telemedicine company based out of Mautitania. Dawiyini aims to connect people in distant areas for tele-consultation and advise"
                 bottomSvg="/svgs/studies/study2.svg"
@@ -55,7 +57,8 @@ export default function CaseStudies() {
                 specs={[
                   "Architechture",
                   "Full Stack Development",
-                  "Brad Desgin UX Design",
+                  "Brand Desgin",
+                  "UX Design",
                 ]}
                 overview="Nosghy, focused towards mental health, is a telemedicine platform connecting doctors and patients for video/audio consultation and remote seminars for mental health"
                 bottomSvg="/svgs/studies/study3.svg"
@@ -69,7 +72,8 @@ export default function CaseStudies() {
                 specs={[
                   "Architechture",
                   "Full Stack Development",
-                  "Brad Desgin UX Design",
+                  "Brand Desgin",
+                  "UX Design",
                 ]}
                 overview="Fully compliant with HIPPA and EHR, the solution lets patients keep their medical history journaled for easy access for the health specialists"
                 bottomSvg="/svgs/studies/study4.svg"

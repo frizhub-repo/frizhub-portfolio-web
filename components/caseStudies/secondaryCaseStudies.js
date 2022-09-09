@@ -54,7 +54,7 @@ export default function SecondaryCaseStudies() {
                 ]}
                 overview="Mipeople aims to improve the nonprofit industry through implementation of innovative technology in the donation process"
                 bottomSvg="/svgs/studies/study3.svg"
-                linkTo="case-studies/mipeople"
+                linkTo="case-studies/mi-people"
               />
             </Fade>
             <Fade bottom>
@@ -68,7 +68,7 @@ export default function SecondaryCaseStudies() {
                 ]}
                 overview="Voor’s SaaS based virtual showrooms are designed to enable Augmented reality in conventional ecommerce stores"
                 bottomSvg="/svgs/studies/study4.svg"
-                linkTo="case-studies/voor3d"
+                linkTo="case-studies/voor-3d"
               />
             </Fade>
           </div>
