@@ -19,47 +19,56 @@ export default function Home() {
           It&apos;s all about the people.
         </h1>
         <CustomCarousel
-          slides={[{
-            img: "images/members/tabish.png",
-            alt: "Tabish Munir",
-            overlay: {
-              main: "Tabish Munir",
-              title: "CEO",
+          slides={[
+            {
+              img: "images/members/tabish.png",
+              alt: "Tabish Munir",
+              overlay: {
+                main: "Tabish Munir",
+                title: "CEO",
+              },
             },
-          },
-          {
-            img: "images/members/azazfz.jpg",
-            alt: "Azaz Ahmed",
-            overlay: {
-              main: "Azaz Ahmed",
-              title: "CTO",
+            {
+              img: "images/members/azazfz.jpg",
+              alt: "Azaz Ahmed",
+              overlay: {
+                main: "Azaz Ahmed",
+                title: "CTO",
+              },
             },
-          },
-          {
-            img: "images/members/umer-qaiser.jpg",
-            alt: "Umer Qaiser",
-            overlay: {
-              main: "Umer Qaiser",
-              title: "Engineering Manager",
+            {
+              img: "images/members/umer-qaiser.jpg",
+              alt: "Umer Qaiser",
+              overlay: {
+                main: "Umer Qaiser",
+                title: "Engineering Manager",
+              },
             },
-          },
-          {
-            img: "images/members/omer-faqiyan.jpg",
-            alt: "Omer Faqiyan",
-            overlay: {
-              main: "Omer Faqiyan",
-              title: "Project Manager",
+            {
+              img: "images/members/omer-faqiyan.jpg",
+              alt: "Omer Faqiyan",
+              overlay: {
+                main: "Omer Faqiyan",
+                title: "Project Manager",
+              },
             },
-          },
-          {
-            img: "images/members/atif.png",
-            alt: "Atif Sikander",
-            overlay: {
-              main: "Atif Sikander",
-              title: "Blockchain Engineer",
+            {
+              img: "images/members/atif.png",
+              alt: "Atif Sikander",
+              overlay: {
+                main: "Atif Sikander",
+                title: "Blockchain Engineer",
+              },
             },
-          },
-        ]}
+            {
+              img: "images/members/muzamil.jpg",
+              alt: "Muzammil Tariq",
+              overlay: {
+                main: "Muzammil Tariq",
+                title: "Full Stack Developer",
+              },
+            },
+          ]}
         />
       </section>
     </Layout>

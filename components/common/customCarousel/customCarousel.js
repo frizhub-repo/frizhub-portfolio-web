@@ -2,17 +2,23 @@ import useEmblaCarousel from "embla-carousel-react";
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import * as React from "react";
 import { IconButton } from "@material-ui/core";
+import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
 
 export default function CustomCarousel({ slides, showLeftButton = false }) {
   const [canScrollPrev, setCanScrollPrev] = React.useState(false);
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({
-    dragFree: true,
-    containScroll: "keepSnaps",
-  });
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    {
+      dragFree: true,
+      loop: true,
+      containScroll: "keepSnaps",
+      draggable: true,
+    },
+    typeof window !== "undefined" ? [WheelGesturesPlugin()] : []
+  );
 
   const scrollPrev = React.useCallback(() => {
-    if (emblaApi) emblaApi.scrollTo(0);
+    if (emblaApi) emblaApi.scrollTo(slides.length / 2);
   }, [emblaApi]);
 
   const onSelect = React.useCallback(() => {
