@@ -62,7 +62,7 @@ export default function CaseStudy({
               {overview}
             </h2>
           </div>
-          <Link href={webLink}>
+          <a href={webLink} target="_blank">
             <div className={styles.viewBtnContainer}>
               <button className={styles.viewBtn} style={{ color: color ?? "" }}>
                 Go to Website
@@ -73,7 +73,7 @@ export default function CaseStudy({
                 z-indez="1"
               />
             </div>
-          </Link>
+          </a>
         </div>
         <img src={bottomSvg} className={styles.bottomSvg} />
       </div>

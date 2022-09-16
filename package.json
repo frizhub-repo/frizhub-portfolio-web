@@ -11,7 +11,8 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
-    "embla-carousel-react": "^5.0.1",
+    "embla-carousel-react": "^7.0.3",
+    "embla-carousel-wheel-gestures": "^3.0.0",
     "framer-motion": "^4.1.17",
     "next": "11.1.2",
     "react": "17.0.2",
