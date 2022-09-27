@@ -31,8 +31,8 @@
 }
 
 .contentContainer {
-  width: 80%;
-  margin: 15vh auto 25vh auto;
+  width: 55%;
+  margin: 15vh auto 25vh 17vh;
   animation: animateContent 3s;
 }
 
@@ -103,6 +103,7 @@
 .arrow {
   margin-left: 5px;
   color: #ffb038;
+  transition: 0.15s ease-in-out !important;
 }
 
 .viewBtn:after {
@@ -121,6 +122,20 @@
 .viewBtn:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+.viewBtn:hover ~ .arrow {
+  transform: rotate(90deg);
+  transition: transform 0.15s ease-in-out;
+}
+.pointers {
+  font-size: 1.2vw;
+  list-style-type: square;
+  line-height: 2.2rem;
+  margin-bottom: 3vh;
+  color: rgba(255, 255, 255, 0.8);
+}
+.link {
+  text-decoration: none;
 }
 
 @media (max-width: 1080px) {
@@ -167,8 +182,8 @@
 
 @media (max-width: 570px) {
   .logoContainer {
-    width: 35vw;
-    height: 8vh;
+    width: 42vw;
+    height: 5vh;
   }
   .specs {
     font-size: 3vw;
@@ -185,6 +200,10 @@
   }
   .carouselContainer {
     margin-top: -10vh;
+  }
+  .pointers {
+    font-size: 3vw;
+    line-height: 3.7vw;
   }
 }
 

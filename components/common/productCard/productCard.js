@@ -11,6 +11,7 @@ export default function ProductCard({
   overview,
   bottomSvg,
   linkTo,
+  logoWidth,
 }) {
   return (
     <div
@@ -18,7 +19,10 @@ export default function ProductCard({
       className={`${styles.uniqueText} ${styles.container}`}
     >
       <div className={styles.contentContainer}>
-        <div className={styles.logoContainer}>
+        <div
+          style={{ width: logoWidth ?? "" }}
+          className={styles.logoContainer}
+        >
           <Image src={logo} layout="fill" />
         </div>
         <div>

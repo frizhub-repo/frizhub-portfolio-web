@@ -1,0 +1,23 @@
+{
+  "bgColor": "#A6A6A6",
+  "logo": "/svgs/hippa.png",
+  "specs": [
+    "Architecture",
+    "Full Stack Development",
+    "Brand Design",
+    "UX Design"
+  ],
+  "overview": [
+    "3 HIPAA Compliance solutions to health care organizations around the globe.",
+    "Medical Records Management for patients to keep a history of different types of tests and reports and upload a copy.",
+    "All the data being served and stored is targeted using HIPPA and EHR guidelines to confirm the compliances."
+  ],
+  "bottomSvg": "/svgs/studies/1.svg",
+  "images": [
+    "/images/gallery/hippa/1.png",
+    "/images/gallery/hippa/2.png",
+    "/images/gallery/hippa/3.png"
+  ],
+  "pdfLink": "/images/gallery/hyphen/hippa-case-study.pdf",
+  "logoWidth": "10vw"
+}

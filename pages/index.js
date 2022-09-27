@@ -37,7 +37,7 @@ export default function Home() {
               },
             },
             {
-              img: "images/members/umer-qaiser.jpg",
+              img: "images/members/umer-qaisercp.jpg",
               alt: "Umer Qaiser",
               overlay: {
                 main: "Umer Qaiser",

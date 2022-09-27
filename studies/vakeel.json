@@ -7,7 +7,9 @@
     "Brand Design",
     "UX Design"
   ],
-  "overview": "Pakistan's first ever digital legal forum built by well known Non Profit the Justice Project Pakistan",
+  "overview": [
+    "Pakistan's first ever digital legal forum built by well known Non Profit the Justice Project Pakistan"
+  ],
   "bottomSvg": "/svgs/studies/study2.svg",
   "images": [
     "/images/gallery/image1.png",
