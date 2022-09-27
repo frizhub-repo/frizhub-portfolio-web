@@ -7,7 +7,9 @@
     "Brand Design",
     "UX Design"
   ],
-  "overview": "Mipeople aims to improve the nonprofit industry through implementation of innovative technology in the donation process",
+  "overview": [
+    "Mipeople aims to improve the nonprofit industry through implementation of innovative technology in the donation process"
+  ],
   "bottomSvg": "/svgs/studies/study3.svg",
   "images": [
     "/images/gallery/image1.png",

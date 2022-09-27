@@ -1,0 +1,25 @@
+{
+  "bgColor": "#02796E",
+  "logo": "/svgs/studies/hyphen.png",
+  "specs": [
+    "Architecture",
+    "Full Stack Development",
+    "Brand Design",
+    "UX Design"
+  ],
+  "overview": [
+    "Records, prescription and vaccinations",
+    "Consultation (Chat, audio, and video call)",
+    "Wallet and Payouts",
+    "400+ consultation requests to date"
+  ],
+  "bottomSvg": "/svgs/studies/1.svg",
+  "images": [
+    "/images/gallery/hyphen/1.png",
+    "/images/gallery/hyphen/2.png",
+    "/images/gallery/hyphen/3.png",
+    "/images/gallery/hyphen/4.png",
+    "/images/gallery/hyphen/5.png"
+  ],
+  "pdfLink": "/images/gallery/hyphen/hyphen-case-study.pdf"
+}

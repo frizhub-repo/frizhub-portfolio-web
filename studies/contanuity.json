@@ -7,7 +7,9 @@
     "Brand Design",
     "UX Design"
   ],
-  "overview": "SAAS app that helps B2B clients identify leads with an intent signal. It enables the customers to expand lead generation with direct visibility into early intent signals",
+  "overview": [
+    "SAAS app that helps B2B clients identify leads with an intent signal. It enables the customers to expand lead generation with direct visibility into early intent signals"
+  ],
   "bottomSvg": "/svgs/studies/study1.svg",
   "images": [
     "/images/gallery/image1.png",

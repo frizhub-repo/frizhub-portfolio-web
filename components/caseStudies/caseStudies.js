@@ -21,7 +21,7 @@ export default function CaseStudies() {
             <Fade bottom>
               <ProductCard
                 logo="/svgs/hyphen.svg"
-                bgColor="#006ED3"
+                bgColor="#02796E"
                 specs={[
                   "Architechture",
                   "Full Stack Development",
@@ -30,7 +30,7 @@ export default function CaseStudies() {
                 ]}
                 overview="Improving the scale of digitized health care and furnishing modern-era custom build white label bridge between doctors and patients."
                 bottomSvg="/svgs/studies/study1.svg"
-                linkTo="https://drive.google.com/file/d/1lpKLtmInKcTgXia4gzHnjZY4WdIkei3X/view?usp=sharing"
+                linkTo="case-studies/hyphen"
               />
             </Fade>
             <Fade bottom>
@@ -53,7 +53,7 @@ export default function CaseStudies() {
             <Fade bottom>
               <ProductCard
                 logo="/svgs/nosghy.svg"
-                bgColor="#279F97"
+                bgColor="#185B6B"
                 specs={[
                   "Architechture",
                   "Full Stack Development",
@@ -62,7 +62,7 @@ export default function CaseStudies() {
                 ]}
                 overview="Nosghy, focused towards mental health, is a telemedicine platform connecting doctors and patients for video/audio consultation and remote seminars for mental health"
                 bottomSvg="/svgs/studies/study3.svg"
-                linkTo="#"
+                linkTo="case-studies/nosghy"
               />
             </Fade>
             <Fade bottom>
@@ -78,6 +78,22 @@ export default function CaseStudies() {
                 overview="Fully compliant with HIPPA and EHR, the solution lets patients keep their medical history journaled for easy access for the health specialists"
                 bottomSvg="/svgs/studies/study4.svg"
                 linkTo="#"
+              />
+            </Fade>
+            <Fade bottom>
+              <ProductCard
+                logo="/svgs/hippa.png"
+                bgColor="#A6A6A6"
+                specs={[
+                  "Architechture",
+                  "Full Stack Development",
+                  "Brand Desgin",
+                  "UX Design",
+                ]}
+                overview="HIPPA Compliance has been a blessing in the era of data security breaches, providing a safe bridge to health care providers from grave fines and reputation loss."
+                bottomSvg="/svgs/studies/study1.svg"
+                linkTo="case-studies/hippa"
+                logoWidth="10vw"
               />
             </Fade>
           </div>

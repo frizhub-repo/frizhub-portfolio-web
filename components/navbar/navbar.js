@@ -5,13 +5,14 @@ import MenuIcon from "@material-ui/icons/Menu";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import PhoneAndroidOutlinedIcon from "@material-ui/icons/PhoneAndroidOutlined";
 import CustomDrawer from "../customDrawer/customDrawer";
-import { Link, scroller } from "react-scroll";
+import { scroller } from "react-scroll";
+import BasicModal from "../common/modal/modal";
 
 export default function Navbar() {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
 
   function handleScheduleClick() {
-    window.open("https://calendly.com/azaz/30min");
+    window.open("https://calendly.com/tabishmunir");
   }
 
   function handleInfoClick() {
@@ -26,15 +27,14 @@ export default function Navbar() {
             What we do?
           </li>
           <li className={styles.logoContainer}>
-            <Image src="/svgs/frizhub.svg" layout="fill" />
+            <Image src="/svgs/frizhub.svg" layout="fill" alt="nothing" />
           </li>
           <li className={styles.scheduleBtnOption}>
-            <button
-              className={styles.scheduleBtn}
-              onClick={handleScheduleClick}
-            >
-              <span className={styles.phoneIcon}>&#9742;</span> Schedule a call
-            </button>
+            {/* <button >
+              <span className={styles.phoneIcon}></span>
+            </button> */}
+            <span className={styles.phoneIcon}></span>
+            <BasicModal buttonCaption="SCHEDULE A CALL"></BasicModal>
           </li>
           <li className={styles.menuBtnOption}>
             <button

@@ -17,7 +17,8 @@ export default function CaseStudy({
   bottomSvg,
   images,
   color,
-  webLink,
+  pdfLink,
+  logoWidth,
 }) {
   const router = useRouter();
   const [isGoingBack, setIsGoingBack] = React.useState(false);
@@ -48,7 +49,11 @@ export default function CaseStudy({
           }`}
         >
           <div className={styles.logoContainer}>
-            <Image src={logo} layout="fill" />
+            <Image
+              style={{ width: logoWidth ?? "" }}
+              src={logo}
+              layout="fill"
+            />
           </div>
           <div>
             <p className={styles.specs} style={{ color: color ?? "" }}>
@@ -58,14 +63,24 @@ export default function CaseStudy({
             </p>
           </div>
           <div className={styles.overviewContainer}>
-            <h2 className={styles.overview} style={{ color: color ?? "" }}>
-              {overview}
-            </h2>
+            {overview.length > 1 ? (
+              <ul>
+                {overview.map((item, index) => (
+                  <li className={styles.pointers} key={index}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <h2 className={styles.overview} style={{ color: color ?? "" }}>
+                {overview}
+              </h2>
+            )}
           </div>
-          <a href={webLink} target="_blank">
+          <a className={styles.link} href={pdfLink} download>
             <div className={styles.viewBtnContainer}>
               <button className={styles.viewBtn} style={{ color: color ?? "" }}>
-                Go to Website
+                Download CaseStudy
               </button>
               <ArrowRightAltOutlinedIcon
                 className={styles.arrow}

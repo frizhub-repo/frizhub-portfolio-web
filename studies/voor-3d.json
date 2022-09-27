@@ -7,7 +7,9 @@
     "Brand Design",
     "UX Design"
   ],
-  "overview": "Voor’s SaaS based virtual showrooms are designed to enable Augmented reality in conventional ecommerce stores",
+  "overview": [
+    "Voor’s SaaS based virtual showrooms are designed to enable Augmented reality in conventional ecommerce stores"
+  ],
   "bottomSvg": "/svgs/studies/study4.svg",
   "images": [
     "/images/gallery/image1.png",

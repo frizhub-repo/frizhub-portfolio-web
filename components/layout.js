@@ -14,7 +14,8 @@ export default function Layout({ children, showNavbar = true }) {
   return (
     <div>
       <Head>
-        <title>{isTabActive ? "Frizhub" : `We miss you...😞`}</title>
+        <title>{isTabActive ? "FrizHub" : `Come Back! • FrizHub`}</title>
+        <script src="https://assets.calendly.com/assets/external/widget.js"></script>
       </Head>
       <div style={{ overflow: "hidden" }}>
         {showNavbar && <Navbar />}
