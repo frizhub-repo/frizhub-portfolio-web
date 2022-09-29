@@ -52,6 +52,8 @@
 .scheduleBtnOption {
   background-image: linear-gradient(to right, white 50%, black 50%);
   background-size: 200% 100%;
+  display: flex;
+  align-items: center;
   transition: background-position 0.15s ease-in;
 }
 

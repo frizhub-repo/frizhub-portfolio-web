@@ -1,5 +1,5 @@
 {
-  "bgColor": "#185B6B",
+  "bgColor": "#003B6B",
   "logo": "/svgs/studies/nosghy.png",
   "specs": [
     "Architecture",
@@ -13,7 +13,7 @@
     "Search for doctors based on ratings and reviews.",
     "Deployed in Arabic UI, diminishing language barriers in UAE."
   ],
-  "bottomSvg": "/svgs/studies/1.svg",
+  "bottomSvg": "/svgs/studies/study5.svg",
   "images": [
     "/images/gallery/nosghy/1.png",
     "/images/gallery/nosghy/2.png",
@@ -21,5 +21,6 @@
     "/images/gallery/nosghy/4.png"
   ],
   "pdfLink": "/images/gallery/nosghy/nosghy-case-study.pdf",
-  "logoWidth": "10vw"
+  "logoContainerWidth": "20vw",
+  "logoContainerHeight": "25vh"
 }

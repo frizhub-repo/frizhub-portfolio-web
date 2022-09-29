@@ -4,8 +4,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import CircularIndeterminate from "../loader/loader";
-
+import { InlineWidget } from "react-calendly";
 const style = {
   position: "absolute",
   top: "50%",
@@ -19,22 +18,27 @@ const style = {
   p: 4,
   // display: "flex",
 };
+const buttonStyle = {
+  fontSize: "16px",
+  fontWeight: "700",
+  cursor: "pointer",
+  display: "flex",
+  transition: "background-position 0.15s ease-in",
+  color: "black",
+  alignItems: "center",
+  textTransform: "uppercase",
+};
 
 export default function BasicModal({ buttonCaption }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-  useEffect(() => {
-    window.Calendly.initInlineWidget({
-      url: "https://calendly.com/tabishmunir",
-      parentElement: document.getElementById("calendly-inline-widget"),
-    });
-  }, []);
-
   return (
     <div>
-      <Button onClick={handleOpen}>{buttonCaption}</Button>
+      <Button sx={buttonStyle} onClick={handleOpen}>
+        {buttonCaption}
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -42,13 +46,7 @@ export default function BasicModal({ buttonCaption }) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <div>
-            <div
-              id="calendly-inline-widget"
-              style={{ minWidth: 320, height: 580 }}
-              data-auto-load="true"
-            ></div>
-          </div>
+          <InlineWidget url="https://calendly.com/tabishmunir" />
         </Box>
       </Modal>
     </div>

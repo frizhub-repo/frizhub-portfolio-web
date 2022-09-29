@@ -75,6 +75,21 @@ export default function SecondaryCaseStudies() {
                 linkTo="case-studies/voor-3d"
               />
             </Fade>
+            <Fade bottom>
+              <ProductCard
+                heading="Bubl"
+                bgColor="#477432"
+                specs={[
+                  "Architechture",
+                  "Full Stack Development",
+                  "Brand Desgin",
+                  "UX Design",
+                ]}
+                overview="Bubl Health is an app that connects patients to condition-based, global communities. A Better and Brighter future for patients where they are not alone and have no unanswered questions."
+                bottomSvg="/svgs/studies/study2.svg"
+                linkTo="case-studies/bubl"
+              />
+            </Fade>
           </div>
         </div>
       </div>
