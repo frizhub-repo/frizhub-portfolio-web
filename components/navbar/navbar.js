@@ -33,8 +33,10 @@ export default function Navbar() {
             {/* <button >
               <span className={styles.phoneIcon}></span>
             </button> */}
-            <span className={styles.phoneIcon}></span>
-            <BasicModal buttonCaption="SCHEDULE A CALL"></BasicModal>
+            <div className={styles.scheduleBtn}>
+              <span className={styles.phoneIcon}>&#9742;</span>
+              <BasicModal buttonCaption="SCHEDULE A CALL"></BasicModal>
+            </div>
           </li>
           <li className={styles.menuBtnOption}>
             <button

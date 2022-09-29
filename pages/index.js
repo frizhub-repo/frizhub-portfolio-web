@@ -61,6 +61,30 @@ export default function Home() {
               },
             },
             {
+              img: "images/members/arslan.png",
+              alt: "Syed Arslan",
+              overlay: {
+                main: "Syed Arslan Shahid Bukhari",
+                title: "Business Developer | Technical Content Writer",
+              },
+            },
+            {
+              img: "images/members/humza.png",
+              alt: "Humza Khalid",
+              overlay: {
+                main: "Humza Khalid",
+                title: "Full Stack Developer",
+              },
+            },
+            {
+              img: "images/members/uzair.png",
+              alt: "Uzair Afzal",
+              overlay: {
+                main: "Uzair Afzal",
+                title: "Blockchain | Software Engineer",
+              },
+            },
+            {
               img: "images/members/muzamil.jpg",
               alt: "Muzammil Tariq",
               overlay: {

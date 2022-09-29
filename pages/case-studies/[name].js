@@ -11,6 +11,7 @@ import ArrowRightAltOutlinedIcon from "@material-ui/icons/ArrowRightAltOutlined"
 
 export default function CaseStudy({
   logo,
+  heading,
   bgColor,
   specs,
   overview,
@@ -18,7 +19,8 @@ export default function CaseStudy({
   images,
   color,
   pdfLink,
-  logoWidth,
+  logoContainerWidth = "20vw",
+  logoContainerHeight = "10vh",
 }) {
   const router = useRouter();
   const [isGoingBack, setIsGoingBack] = React.useState(false);
@@ -48,12 +50,15 @@ export default function CaseStudy({
             isGoingBack && styles.backContentContainer
           }`}
         >
-          <div className={styles.logoContainer}>
-            <Image
-              style={{ width: logoWidth ?? "" }}
-              src={logo}
-              layout="fill"
-            />
+          <div
+            className={styles.logoContainer}
+            style={{ width: logoContainerWidth, height: logoContainerHeight }}
+          >
+            {logo ? (
+              <Image src={logo} layout="fill" />
+            ) : (
+              <h3 className={styles.logoHeading}>{heading}</h3>
+            )}
           </div>
           <div>
             <p className={styles.specs} style={{ color: color ?? "" }}>

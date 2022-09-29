@@ -6,12 +6,14 @@ import styles from "./productCard.module.css";
 export default function ProductCard({
   color,
   logo,
+  heading,
   bgColor,
   specs,
   overview,
   bottomSvg,
   linkTo,
   logoWidth,
+  logoContainerHeight = "60px",
 }) {
   return (
     <div
@@ -20,10 +22,19 @@ export default function ProductCard({
     >
       <div className={styles.contentContainer}>
         <div
-          style={{ width: logoWidth ?? "" }}
+          style={{
+            width: logoWidth ?? "",
+            height: logoContainerHeight,
+          }}
           className={styles.logoContainer}
         >
-          <Image src={logo} layout="fill" />
+          {logo ? (
+            <Image src={logo} layout="fill" />
+          ) : (
+            <h3 className={styles.logoHeight} style={{ color: color ?? "" }}>
+              {heading}
+            </h3>
+          )}
         </div>
         <div>
           <p className={styles.specs} style={{ color: color ?? "" }}>

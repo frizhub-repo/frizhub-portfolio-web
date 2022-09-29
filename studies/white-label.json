@@ -1,0 +1,31 @@
+{
+  "bgColor": "#9D3154",
+  "heading": "White Label Solution",
+  "specs": [
+    "Architecture",
+    "Full Stack Development",
+    "Brand Design",
+    "UX Design"
+  ],
+  "overview": [
+    "It takes less than 5 weeks for the deployment process.",
+    "Allow doctors and patients to have a dashboard view in which they can see their profile completion, appointment data, consultation data, etc.",
+    "Allows patients and doctors to rate each other after consultation.",
+    "Allow admin to schedule a seminar on various health or other social-related issues.",
+    "Patient and doctor Hybrid dashboard View",
+    "Audio, Video , & chat",
+    "Wallet & payouts | electronic health records | payment gateway"
+  ],
+  "bottomSvg": "/svgs/studies/study2.svg",
+  "images": [
+    "/images/gallery/white-label/1.png",
+    "/images/gallery/white-label/2.png",
+    "/images/gallery/white-label/3.png",
+    "/images/gallery/white-label/4.png",
+    "/images/gallery/white-label/5.png",
+    "/images/gallery/white-label/6.png"
+  ],
+  "pdfLink": "/images/gallery/white-label/white-label-case-study.pdf",
+  "logoContainerWidth": "100%",
+  "logoContainerHeight": "75px"
+}
