@@ -186,8 +186,8 @@
 
 @media (max-width: 570px) {
   .logoContainer {
-    width: 42vw;
-    height: 5vh;
+    width: 42vw !important;
+    height: 5vh !important;
   }
   .specs {
     font-size: 3vw;

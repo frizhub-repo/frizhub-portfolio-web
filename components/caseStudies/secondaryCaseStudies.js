@@ -43,6 +43,22 @@ export default function SecondaryCaseStudies() {
                 color="black"
               />
             </Fade>
+            <Fade bottom>
+              <ProductCard
+                heading="Beacon House"
+                bgColor="#00869B"
+                specs={[
+                  "Architechture",
+                  "Full Stack Development",
+                  "Brand Desgin",
+                  "UX Design",
+                ]}
+                overview="The aim is to bring all its students' artwork and projects together, regardless of geographical locations, with the aim to unite young communities around the world and support them in creating their own network of learning and collaboration through the COVID era."
+                bottomSvg="/svgs/studies/study1.svg"
+                linkTo="case-studies/beacon-house"
+                logoContainerHeight="104px"
+              />
+            </Fade>
           </div>
           <div className={styles.rightStudies}>
             <Fade bottom>

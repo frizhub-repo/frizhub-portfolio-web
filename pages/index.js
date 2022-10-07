@@ -53,7 +53,7 @@ export default function Home() {
               },
             },
             {
-              img: "images/members/atif.png",
+              img: "images/members/atif2.png",
               alt: "Atif Sikander",
               overlay: {
                 main: "Atif Sikander",
@@ -66,6 +66,14 @@ export default function Home() {
               overlay: {
                 main: "Syed Arslan Shahid Bukhari",
                 title: "Business Developer | Technical Content Writer",
+              },
+            },
+            {
+              img: "images/members/muzamil.jpg",
+              alt: "Muzammil Tariq",
+              overlay: {
+                main: "Muzammil Tariq",
+                title: "Full Stack Developer",
               },
             },
             {
@@ -84,14 +92,7 @@ export default function Home() {
                 title: "Blockchain | Software Engineer",
               },
             },
-            {
-              img: "images/members/muzamil.jpg",
-              alt: "Muzammil Tariq",
-              overlay: {
-                main: "Muzammil Tariq",
-                title: "Full Stack Developer",
-              },
-            },
+            
           ]}
         />
       </section>
