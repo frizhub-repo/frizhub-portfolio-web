@@ -18,8 +18,6 @@ export default function EmailForm() {
     formState: { errors },
     reset,
   } = useForm();
-  console.log(errors);
-
   const handleRegistration = async (data) => {
     debugger;
     await fetch("/api/mail", {
