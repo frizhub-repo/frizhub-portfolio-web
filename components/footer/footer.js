@@ -34,7 +34,6 @@ export default function Footer() {
           </div>
           <div className={styles.contactContainer}>
             <h1 className={styles.contactHeader}>Get In Touch</h1>
-            {/* <CustomInput placeholder="Enter your email" /> */}
             <EmailForm />
           </div>
           <div className={styles.policyContainer}>

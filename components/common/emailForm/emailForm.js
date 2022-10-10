@@ -40,9 +40,6 @@ export default function EmailForm() {
     >
       <div className={styles.infoContainer}>
         <div className={styles.inputField}>
-          {/* <label htmlFor="name" className={styles.labelText}>
-            Name :&nbsp;
-          </label> */}
           <TextField
             className={styles.infoTextField}
             id="outlined"

@@ -30,9 +30,6 @@ export default function Navbar() {
             <Image src="/svgs/frizhub.svg" layout="fill" alt="nothing" />
           </li>
           <li className={styles.scheduleBtnOption}>
-            {/* <button >
-              <span className={styles.phoneIcon}></span>
-            </button> */}
             <div className={styles.scheduleBtn}>
               <span className={styles.phoneIcon}>&#9742;</span>
               <BasicModal buttonCaption="SCHEDULE A CALL"></BasicModal>
