@@ -7,7 +7,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import styles from "./footer.module.css";
 import CustomInput from "../common/customInput/customInput";
 import FooterImage from "../../public/svgs/footer-design.svg";
-import {Link} from "@material-ui/core"
+import { Link } from "@material-ui/core";
+import EmailForm from "../common/emailForm/emailForm";
 export default function Footer() {
   return (
     <div className={styles.container}>
@@ -26,23 +27,27 @@ export default function Footer() {
                 More than 10 years in the game and we’re just getting started.
               </h1>
               <p className={styles.detailText}>
-                Bringing <b>Order to Chaos</b> for our amazing clients worldwide.
+                Bringing <b>Order to Chaos</b> for our amazing clients
+                worldwide.
               </p>
             </div>
           </div>
           <div className={styles.contactContainer}>
             <h1 className={styles.contactHeader}>Get In Touch</h1>
-            <CustomInput placeholder="Enter your email" />
+            <EmailForm />
           </div>
           <div className={styles.policyContainer}>
             <div>
               <p>Terms of Service / Privacy Policy</p>
             </div>
             <div className={styles.socialIconsContainer}>
-              <Link target="_blank" href="https://www.linkedin.com/company/frizhub">
-              <IconButton>
-                <LinkedInIcon className={styles.socialIcon} />
-              </IconButton>
+              <Link
+                target="_blank"
+                href="https://www.linkedin.com/company/frizhub"
+              >
+                <IconButton>
+                  <LinkedInIcon className={styles.socialIcon} />
+                </IconButton>
               </Link>
             </div>
           </div>

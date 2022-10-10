@@ -17,6 +17,9 @@
   border-right: 1px solid black;
   border-bottom: 1px solid black;
 }
+.contactContainer {
+  margin-bottom: 30px;
+}
 
 .contentContainer {
   flex: 1;
@@ -76,7 +79,7 @@
 }
 
 .contactHeader {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1400px) {
@@ -104,7 +107,6 @@
   }
   .contentWrapper {
     width: 80%;
-    height: 530px;
     padding: 20px 0px;
   }
 }
@@ -136,7 +138,6 @@
     font-size: 14px;
   }
   .contentWrapper {
-    height: 350px;
     padding: 20px 0px;
   }
   .logoContainer {

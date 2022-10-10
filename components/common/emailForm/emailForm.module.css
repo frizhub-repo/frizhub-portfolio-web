@@ -1,0 +1,67 @@
+.contactForm {
+  position: relative;
+}
+.infoContainer {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.errorMessage {
+  color: red;
+  font-size: 12px;
+}
+.inputField {
+  flex: 1;
+}
+.infoTextField {
+  width: 95%;
+}
+.textField {
+  width: 100%;
+}
+.labelText {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.messageField {
+  margin-bottom: 20px;
+}
+.messageLabelText {
+  margin-bottom: 10px;
+}
+.submitButton {
+  position: absolute;
+  right: 0;
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  background-image: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.15s ease-in;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.submitButton:hover {
+  background-position: -100% 0%;
+  color: white;
+}
+@media (max-width: 650px) {
+  .infoContainer {
+    display: block;
+  }
+  .inputField {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .submitButton {
+    position: static;
+    text-align: center;
+  }
+}
