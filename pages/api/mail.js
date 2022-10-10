@@ -1,5 +1,4 @@
 const mail = require("@sendgrid/mail");
-debugger;
 mail.setApiKey(process.env.SENDGRID_API_KEY);
 export default function handler(req, res) {
   const body = JSON.parse(req.body);

@@ -19,7 +19,6 @@ export default function EmailForm() {
     reset,
   } = useForm();
   const handleRegistration = async (data) => {
-    debugger;
     await fetch("/api/mail", {
       method: "post",
       body: JSON.stringify(data),
