@@ -15,7 +15,7 @@ export default function SecondaryCaseStudies() {
             <Fade bottom>
               <ProductCard
                 logo="/svgs/contanuity-logo.svg"
-                bgColor="#006ED3"
+                bgColor="#244AB6"
                 specs={[
                   "Architechture",
                   "Full Stack Development",
@@ -30,17 +30,16 @@ export default function SecondaryCaseStudies() {
             <Fade bottom>
               <ProductCard
                 logo="/svgs/vakeelonline.svg"
-                bgColor="#F9F9F9"
+                bgColor="#FFD902"
                 specs={[
                   "Architechture",
                   "Full Stack Development",
                   "Brand Desgin",
                   "UX Design",
                 ]}
-                overview="Pakistan's first ever digital legal forum built by well known Non Profit the Justice Project Pakistan"
+                overview="A combination of marketplace and social media Platform for lawyers and people of Pakistan."
                 bottomSvg="/svgs/studies/study2.svg"
                 linkTo="case-studies/vakeel"
-                color="black"
               />
             </Fade>
             <Fade bottom>
@@ -86,7 +85,7 @@ export default function SecondaryCaseStudies() {
                   "Brand Desgin",
                   "UX Design",
                 ]}
-                overview="Voor’s SaaS based virtual showrooms are designed to enable Augmented reality in conventional ecommerce stores"
+                overview="A digitized 3D platform that enables shoppers to visit brand showrooms virtually on their desktops & smart gadgets in an unprecedented manner."
                 bottomSvg="/svgs/studies/study4.svg"
                 linkTo="case-studies/voor-3d"
               />

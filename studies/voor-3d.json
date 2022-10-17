@@ -8,16 +8,20 @@
     "UX Design"
   ],
   "overview": [
-    "Voor’s SaaS based virtual showrooms are designed to enable Augmented reality in conventional ecommerce stores"
+    "Reducing materials and physical sampling is sustainable AND cost-effective.",
+    "Ditching the physical samples and shifting towards digitized or virtual ones will be a major change.",
+    "The UNREAL Engine was utilized to develop showrooms whilst Furioos for streaming 3D.",
+    "Showcasing the effort designers and brands put in a little span of time and hustle is a must."
   ],
   "bottomSvg": "/svgs/studies/study4.svg",
   "images": [
-    "/images/gallery/image1.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png"
+    "/images/gallery/voor-3d/1.png",
+    "/images/gallery/voor-3d/2.png",
+    "/images/gallery/voor-3d/3.png",
+    "/images/gallery/voor-3d/4.png",
+    "/images/gallery/voor-3d/5.png",
+    "/images/gallery/voor-3d/6.png",
+    "/images/gallery/voor-3d/7.png"
   ],
-  "webLink": "https://www.voor3d.com"
+  "pdfLink": "/images/gallery/voor-3d/voor-case-study.pdf"
 }

@@ -1,5 +1,5 @@
 {
-  "bgColor": "#F9F9F9",
+  "bgColor": "#FFD902",
   "logo": "/svgs/vakeelonline.svg",
   "specs": [
     "Architecture",
@@ -8,17 +8,18 @@
     "UX Design"
   ],
   "overview": [
-    "Pakistan's first ever digital legal forum built by well known Non Profit the Justice Project Pakistan"
+    "The system registered 300+ probono cases since the day it was launched.",
+    "Backed by 30,000 people including lawyers, legal experts, social workers, and the general public.",
+    "Frizhub worked as Justice Project Pakistan's engineering partner and helped them build a modern-day platform where lawyers can advance the conventional modes of client building.",
+    "Allowing lawyers to freely accept a case of an accused person who cannot afford financially to fight for it.",
+    "Allows Clients to Search and selects the best suitable lawyer for their associated case."
   ],
   "bottomSvg": "/svgs/studies/study2.svg",
   "images": [
-    "/images/gallery/image1.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png"
+    "/images/gallery/vakeel-online/1.png",
+    "/images/gallery/vakeel-online/2.png",
+    "/images/gallery/vakeel-online/3.png",
+    "/images/gallery/vakeel-online/4.png"
   ],
-  "color": "black",
-  "webLink": "https://vakeelonline.pk/"
+  "pdfLink": "/images/gallery/vakeel-online/vakeel-online-case-study.pdf"
 }

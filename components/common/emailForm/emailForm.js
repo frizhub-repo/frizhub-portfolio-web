@@ -42,14 +42,14 @@ export default function EmailForm() {
             id="outlined"
             name="name"
             placeholder="Your Name"
-            {...register("name", { required: "name can't be empty" })}
+            {...register("name", { required: "Name can't be empty" })}
             sx={inputFieldStyle}
           />
-          <div>
-            {errors?.name && (
+          {errors?.name && (
+            <div>
               <p className={styles.errorMessage}>{errors?.name?.message}</p>
-            )}
-          </div>
+            </div>
+          )}
         </div>
         <div className={styles.inputField}>
           <TextField
@@ -58,14 +58,14 @@ export default function EmailForm() {
             type="email"
             placeholder="Your Email"
             name="email"
-            {...register("email", { required: "email can't be empty" })}
+            {...register("email", { required: "Email can't be empty" })}
             sx={inputFieldStyle}
           />
-          <div>
-            {errors?.name && (
+          {errors?.name && (
+            <div>
               <p className={styles.errorMessage}>{errors?.email?.message}</p>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
       <div className={styles.messageField}>
@@ -75,14 +75,14 @@ export default function EmailForm() {
           multiline
           rows={4}
           placeholder="Your Message Here..."
-          {...register("message", { required: "message can't be empty" })}
+          {...register("message", { required: "Message can't be empty" })}
           sx={inputFieldStyle}
         />
-        <div>
-          {errors?.name && (
+        {errors?.name && (
+          <div>
             <p className={styles.errorMessage}>{errors?.message?.message}</p>
-          )}
-        </div>
+          </div>
+        )}
       </div>
       <button type="submit" className={styles.submitButton}>
         &#9993;Send Email
