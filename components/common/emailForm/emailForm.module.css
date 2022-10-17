@@ -5,9 +5,10 @@
   display: flex;
   margin-bottom: 20px;
   align-items: center;
-  justify-content: space-around;
+  gap: 30px;
 }
 .errorMessage {
+  margin-top: 6px;
   color: red;
   font-size: 12px;
 }
@@ -15,7 +16,7 @@
   flex: 1;
 }
 .infoTextField {
-  width: 95%;
+  width: 100%;
 }
 .textField {
   width: 100%;
@@ -62,6 +63,5 @@
 @media (max-width: 700px) {
   .submitButton {
     position: static;
-    text-align: center;
   }
 }

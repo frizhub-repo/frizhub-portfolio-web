@@ -3,9 +3,9 @@ mail.setApiKey(process.env.SENDGRID_API_KEY);
 export default function handler(req, res) {
   const body = JSON.parse(req.body);
   const message = `
-        Name : ${body.name}\r\n
-        Email :${body.email}\r\n
-        Message : ${body.message}\r\n
+        <strong>NAME:</strong> ${body.name}\r<br><br>
+        <strong>EMAIL:</strong> ${body.email}\r<br><br>
+        <strong>MESSAGE:</strong> ${body.message}\r\n
     `;
   const data = {
     to: "info@frizhub.com",

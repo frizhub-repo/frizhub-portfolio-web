@@ -1,5 +1,5 @@
 {
-  "bgColor": "#006ED3",
+  "bgColor": "#244AB6",
   "logo": "/svgs/contanuity-logo.svg",
   "specs": [
     "Architecture",
@@ -8,16 +8,19 @@
     "UX Design"
   ],
   "overview": [
-    "SAAS app that helps B2B clients identify leads with an intent signal. It enables the customers to expand lead generation with direct visibility into early intent signals"
+    "Contanuity leads generation system meets cloud. Their sophisticated algorithms backed by a huge number of contacts in the database required a cutting-edge solution.",
+    "A database of 44 million contacts is turned into a lead engine using machine learning and calculating a contact's intent.",
+    "Managing huge databases of contacts with constantly uploading new entries into it.",
+    "The results of a certain search can be added to campaigns where users can email to the group."
   ],
   "bottomSvg": "/svgs/studies/study1.svg",
   "images": [
-    "/images/gallery/image1.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png",
-    "/images/gallery/image2.png"
+    "/images/gallery/contanuity/1.png",
+    "/images/gallery/contanuity/2.png",
+    "/images/gallery/contanuity/3.png",
+    "/images/gallery/contanuity/4.png",
+    "/images/gallery/contanuity/5.png",
+    "/images/gallery/contanuity/6.png"
   ],
-  "webLink": "https://www.contanuity.com/"
+  "pdfLink": "/images/gallery/contanuity/contanuity-case-study.pdf"
 }
