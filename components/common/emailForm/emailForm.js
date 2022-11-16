@@ -86,7 +86,6 @@ export default function EmailForm() {
         )}
       </div>
       <button type="submit" className={styles.submitButton}>
-        {/* <span className={styles.mailEmoji}>&#9993;</span> */}
         <span className={styles.mailIcon}>
           <SendTwoToneIcon />
         </span>

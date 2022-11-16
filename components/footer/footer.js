@@ -1,14 +1,9 @@
-import Image from "next/image";
-import { IconButton } from "@material-ui/core";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import { IconButton, Link } from "@material-ui/core";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import styles from "./footer.module.css";
-import CustomInput from "../common/customInput/customInput";
+import Image from "next/image";
 import FooterImage from "../../public/svgs/footer-design.svg";
-import { Link } from "@material-ui/core";
 import EmailForm from "../common/emailForm/emailForm";
+import styles from "./footer.module.css";
 export default function Footer() {
   return (
     <div className={styles.container}>
@@ -38,7 +33,6 @@ export default function Footer() {
             </div>
           </div>
           <div className={styles.contactContainer}>
-            {/* <h1 className={styles.contactHeader}>Get In Touch</h1> */}
             <EmailForm />
           </div>
           <div className={styles.policyContainer}>
