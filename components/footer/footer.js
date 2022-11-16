@@ -12,7 +12,7 @@ import EmailForm from "../common/emailForm/emailForm";
 export default function Footer() {
   return (
     <div className={styles.container}>
-      <div className={styles.blackFooter}></div>
+      <div className={styles.blackFooter}>FrizHub © 2016</div>
       <div className={styles.footerDesignContainer}>
         <Image src={FooterImage} layout="fill" />
       </div>
@@ -20,7 +20,12 @@ export default function Footer() {
         <div className={styles.contentWrapper}>
           <div className={styles.footerHeader}>
             <div className={styles.logoContainer}>
-              <Image src="/svgs/frizhub.svg" layout="fill" />
+              <div className={styles.logo}>
+                <Image src="/svgs/frizhub.svg" layout="fill" />
+              </div>
+              <div>
+                <h1 className={styles.contactHeader}>Get In Touch</h1>
+              </div>
             </div>
             <div className={styles.detailHeader}>
               <h1 className={styles.detailHeading}>
@@ -33,7 +38,7 @@ export default function Footer() {
             </div>
           </div>
           <div className={styles.contactContainer}>
-            <h1 className={styles.contactHeader}>Get In Touch</h1>
+            {/* <h1 className={styles.contactHeader}>Get In Touch</h1> */}
             <EmailForm />
           </div>
           <div className={styles.policyContainer}>

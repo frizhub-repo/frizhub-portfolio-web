@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import TextField from "@mui/material/TextField";
 import styles from "./emailForm.module.css";
+import SendTwoToneIcon from "@Material-Ui/Icons/SendTwoTone";
 
 export default function EmailForm() {
   const inputFieldStyle = {
@@ -85,7 +86,11 @@ export default function EmailForm() {
         )}
       </div>
       <button type="submit" className={styles.submitButton}>
-        &#9993;Send Email
+        {/* <span className={styles.mailEmoji}>&#9993;</span> */}
+        <span className={styles.mailIcon}>
+          <SendTwoToneIcon />
+        </span>
+        Send Email
       </button>
     </form>
   );

@@ -44,7 +44,7 @@ export default function SecondaryCaseStudies() {
             </Fade>
             <Fade bottom>
               <ProductCard
-                heading="Beacon House"
+                heading="Beaconhouse"
                 bgColor="#00869B"
                 specs={[
                   "Architechture",
@@ -55,7 +55,7 @@ export default function SecondaryCaseStudies() {
                 overview="The aim is to bring all its students' artwork and projects together, regardless of geographical locations, with the aim to unite young communities around the world and support them in creating their own network of learning and collaboration through the COVID era."
                 bottomSvg="/svgs/studies/study1.svg"
                 linkTo="case-studies/beacon-house"
-                logoContainerHeight="104px"
+                // logoContainerHeight="104px"
               />
             </Fade>
           </div>
@@ -103,6 +103,21 @@ export default function SecondaryCaseStudies() {
                 overview="Bubl Health is an app that connects patients to condition-based, global communities. A Better and Brighter future for patients where they are not alone and have no unanswered questions."
                 bottomSvg="/svgs/studies/study2.svg"
                 linkTo="case-studies/bubl"
+              />
+            </Fade>
+            <Fade bottom>
+              <ProductCard
+                heading="LegacySuite"
+                bgColor="#014096"
+                specs={[
+                  "Architechture",
+                  "Full Stack Development",
+                  "Brand Desgin",
+                  "UX Design",
+                ]}
+                overview="Organizing, creating, and securing your critical information is essential to preserving your digital life. Now is the time to get started!"
+                bottomSvg="/svgs/studies/study3.svg"
+                linkTo=""
               />
             </Fade>
           </div>

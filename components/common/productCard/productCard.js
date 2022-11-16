@@ -51,7 +51,7 @@ export default function ProductCard({
         <Link href={linkTo}>
           <div className={styles.viewBtnContainer}>
             <button className={styles.viewBtn} style={{ color: color ?? "" }}>
-              View Casestudy
+              View Case Study
             </button>
             <ArrowRightAltOutlinedIcon
               className={styles.arrow}
