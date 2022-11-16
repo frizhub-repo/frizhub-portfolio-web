@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import TextField from "@mui/material/TextField";
 import styles from "./emailForm.module.css";
-import SendTwoToneIcon from "@Material-Ui/Icons/SendTwoTone";
+import SendTwoToneIcon from "@material-ui/icons/SendTwoTone";
 
 export default function EmailForm() {
   const inputFieldStyle = {
