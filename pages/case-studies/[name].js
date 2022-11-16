@@ -85,7 +85,7 @@ export default function CaseStudy({
           <a className={styles.link} href={pdfLink} download>
             <div className={styles.viewBtnContainer}>
               <button className={styles.viewBtn} style={{ color: color ?? "" }}>
-                Download CaseStudy
+                Download Case Study
               </button>
               <ArrowRightAltOutlinedIcon
                 className={styles.arrow}

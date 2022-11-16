@@ -47,6 +47,10 @@
   transition: background-position 0.15s ease-in;
   text-transform: uppercase;
   letter-spacing: 1px;
+  padding-top: 8;
+}
+.mailIcon {
+  vertical-align: middle;
 }
 .submitButton:hover {
   background-position: -100% 0%;

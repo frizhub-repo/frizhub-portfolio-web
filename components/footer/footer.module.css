@@ -8,6 +8,9 @@
   width: 100%;
   height: 70px;
   background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 26px;
 }
 
 .footerDesignContainer {
@@ -39,7 +42,11 @@
 .logoContainer {
   position: relative;
   width: 200px;
-  height: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 70px;
 }
 
 .footerHeader {
@@ -55,21 +62,22 @@
 .detailHeading {
   text-transform: capitalize;
   line-height: 120%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .detailText {
-  line-height: 200%;
+  line-height: 300%;
 }
 
 .policyContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 101%;
+  margin-top: 10px;
 }
 
 .socialIconsContainer {
-  width: 300px;
   display: flex;
   justify-content: space-between;
 }
@@ -79,7 +87,7 @@
 }
 
 .contactHeader {
-  margin-bottom: 30px;
+  margin-top: 100px;
 }
 
 @media (max-width: 1400px) {
@@ -144,13 +152,14 @@
     display: none;
   }
   .socialIconsContainer {
-    width: 250px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 @media (max-width: 700px) {
   .contactContainer {
-    margin-bottom: 10px;
+    margin-top: 140px;
   }
   .detailHeader {
     flex-direction: column;
@@ -169,7 +178,8 @@
 
 @media (max-width: 650px) {
   .socialIconsContainer {
-    width: 200px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -190,5 +200,7 @@
   }
   .socialIconsContainer {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
   }
 }

@@ -1,25 +1,24 @@
 {
-    "bgColor": "#00869B",
-    "heading": "Beacon House",
-    "specs": [
-      "Architecture",
-      "Full Stack Development",
-      "Brand Design",
-      "UX Design"
-    ],
-    "overview": [
-      "3 state-of-the-art themes were developed, allowing students from schools in UAE, Oman, Philippines, Malaysia, and Pakistan.",
-      "An initiative to bring national as well as international students, which allows them to create their own networks of learning and collaboration.",
-      "More than 80+ schools participated in our UNITY 3D digitized platform to showcase their brilliant talent."
-    ],
-    "bottomSvg": "/svgs/studies/study1.svg",
-    "images": [
-      "/images/gallery/beacon-house/1.png",
-      "/images/gallery/beacon-house/2.png",
-      "/images/gallery/beacon-house/3.png"
-    ],
-    "pdfLink": "/images/gallery/beacon-house/beacon-house-case-study.pdf",
-    "logoContainerWidth": "100%",
-    "logoContainerHeight": "75px"
-  }
-  
+  "bgColor": "#00869B",
+  "heading": "Beaconhouse",
+  "specs": [
+    "Architecture",
+    "Full Stack Development",
+    "Brand Design",
+    "UX Design"
+  ],
+  "overview": [
+    "3 state-of-the-art themes were developed, allowing students from schools in UAE, Oman, Philippines, Malaysia, and Pakistan.",
+    "An initiative to bring national as well as international students, which allows them to create their own networks of learning and collaboration.",
+    "More than 80+ schools participated in our UNITY 3D digitized platform to showcase their brilliant talent."
+  ],
+  "bottomSvg": "/svgs/studies/study1.svg",
+  "images": [
+    "/images/gallery/beacon-house/1.png",
+    "/images/gallery/beacon-house/2.png",
+    "/images/gallery/beacon-house/3.png"
+  ],
+  "pdfLink": "/images/gallery/beacon-house/beacon-house-case-study.pdf",
+  "logoContainerWidth": "100%",
+  "logoContainerHeight": "75px"
+}
