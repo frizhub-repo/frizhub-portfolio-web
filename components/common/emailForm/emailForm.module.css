@@ -38,7 +38,7 @@
   right: 0;
   border: 2px solid black;
   background-color: transparent;
-  padding: 5px 10px;
+  padding: 5px 10px !important;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
@@ -47,7 +47,6 @@
   transition: background-position 0.15s ease-in;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding-top: 8;
 }
 .mailIcon {
   vertical-align: middle;

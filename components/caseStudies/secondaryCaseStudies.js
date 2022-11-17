@@ -106,7 +106,7 @@ export default function SecondaryCaseStudies() {
             </Fade>
             <Fade bottom>
               <ProductCard
-                heading="LegacySuite"
+                heading="Legacy Suite"
                 bgColor="#014096"
                 specs={[
                   "Architechture",
