@@ -7,7 +7,6 @@ import styles from "./footer.module.css";
 export default function Footer() {
   return (
     <div className={styles.container}>
-      <div className={styles.blackFooter}>FrizHub © 2016</div>
       <div className={styles.footerDesignContainer}>
         <Image src={FooterImage} layout="fill" />
       </div>
@@ -50,6 +49,7 @@ export default function Footer() {
               </Link>
             </div>
           </div>
+          <div className={styles.blackFooter}>FrizHub © 2016</div>
         </div>
       </div>
     </div>
