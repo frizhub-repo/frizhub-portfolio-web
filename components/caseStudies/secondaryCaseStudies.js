@@ -114,7 +114,7 @@ export default function SecondaryCaseStudies() {
                   "Brand Desgin",
                   "UX Design",
                 ]}
-                overview="Organizing, creating, and securing your critical information is essential to preserving your digital life. Now is the time to get started!"
+                overview="Application to ensure that estate planning is inclusive of all assets (physical and digital) and a legacy is truly passed in accordance with the owner’s personal intent."
                 bottomSvg="/svgs/studies/study3.svg"
                 linkTo=""
               />
