@@ -37,14 +37,6 @@ export default function Home() {
               },
             },
             {
-              img: "images/members/umer-qaisercp.jpg",
-              alt: "Umer Qaiser",
-              overlay: {
-                main: "Umer Qaiser",
-                title: "Engineering Manager",
-              },
-            },
-            {
               img: "images/members/omer-faqiyan.jpg",
               alt: "Omer Faqiyan",
               overlay: {
@@ -92,7 +84,6 @@ export default function Home() {
                 title: "Blockchain | Software Engineer",
               },
             },
-            
           ]}
         />
       </section>
