@@ -49,7 +49,14 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-          <div className={styles.blackFooter}>FrizHub © 2016</div>
+          <div>
+            <div className={styles.blackFooter}>
+              <p>FrizHub © 2016</p>
+              <p style={{ marginTop: "6px" }}>
+                231-A GOR V, Faisal town, Lahore
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
