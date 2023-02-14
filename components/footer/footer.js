@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
           <div>
             <div className={styles.blackFooter}>
-              <p>FrizHub © 2016</p>
+              <p>FRIZHUB © 2016</p>
               <p style={{ marginTop: "6px" }}>
                 231-A GOR V, Faisal town, Lahore
               </p>

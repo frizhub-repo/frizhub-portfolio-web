@@ -8,7 +8,7 @@ import Gallery from "../components/gallery/gallery";
 
 export default function Home() {
   return (
-    <Layout title="FrizHub">
+    <Layout title="FRIZHUB">
       <Hero />
       <hr />
       <CaseStudies />
