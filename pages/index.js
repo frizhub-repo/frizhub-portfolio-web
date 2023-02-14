@@ -29,7 +29,7 @@ export default function Home() {
               },
             },
             {
-              img: "images/members/azazfz.jpg",
+              img: "images/members/azaz.png",
               alt: "Azaz Ahmed",
               overlay: {
                 main: "Azaz Ahmed",
@@ -37,19 +37,27 @@ export default function Home() {
               },
             },
             {
-              img: "images/members/omer-faqiyan.jpg",
+              img: "images/members/omer.png",
               alt: "Omer Faqiyan",
               overlay: {
                 main: "Omer Faqiyan",
-                title: "Project Manager",
+                title: "Product Manager",
               },
             },
             {
-              img: "images/members/atif2.png",
+              img: "images/members/shahrukh.png",
+              alt: "Shahrukh Idrees",
+              overlay: {
+                main: "Shahrukh Idrees",
+                title: "Procuct Design Lead",
+              },
+            },
+            {
+              img: "images/members/atif.png",
               alt: "Atif Sikander",
               overlay: {
                 main: "Atif Sikander",
-                title: "Blockchain Engineer",
+                title: "Senior Software Engineer",
               },
             },
             {
@@ -57,15 +65,15 @@ export default function Home() {
               alt: "Syed Arslan",
               overlay: {
                 main: "Syed Arslan Shahid Bukhari",
-                title: "Business Developer | Technical Content Writer",
+                title: "Technical Content Writer",
               },
             },
             {
-              img: "images/members/muzamil.jpg",
+              img: "images/members/muzammil.png",
               alt: "Muzammil Tariq",
               overlay: {
                 main: "Muzammil Tariq",
-                title: "Full Stack Developer",
+                title: "Full Stack Engineer",
               },
             },
             {
@@ -73,7 +81,7 @@ export default function Home() {
               alt: "Humza Khalid",
               overlay: {
                 main: "Humza Khalid",
-                title: "Full Stack Developer",
+                title: "Full Stack Engineer",
               },
             },
             {
@@ -81,9 +89,25 @@ export default function Home() {
               alt: "Uzair Afzal",
               overlay: {
                 main: "Uzair Afzal",
-                title: "Blockchain | Software Engineer",
+                title: "Blockchain Engineer",
               },
             },
+            {
+              img: "images/members/areeba.png",
+              alt: "Areeba Khan",
+              overlay: {
+                main: "Areeba Khan",
+                title: "Resource Manager",
+              },
+            },
+            {
+              img: "images/members/nadeem.png",
+              alt: "Nadeem Khan",
+              overlay: {
+                main: "Nadeem Khan",
+                title: "App Development Lead",
+              },
+            }
           ]}
         />
       </section>
