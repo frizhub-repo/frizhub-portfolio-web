@@ -5,10 +5,24 @@ import CustomCarousel from "../components/common/customCarousel/customCarousel";
 import styles from "../styles/utils.module.css";
 import SecondaryCaseStudies from "../components/caseStudies/secondaryCaseStudies";
 import Gallery from "../components/gallery/gallery";
+import Script from "next/script";
 
 export default function Home() {
   return (
     <Layout title="FRIZHUB">
+      <Script id="show-banner" strategy="afterInteractive">
+        {`(function (w, d, s, l, i) {
+  console.log("GTM LOADED");
+  w[l] = w[l] || [];
+  w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+  var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s),
+    dl = l != "dataLayer" ? "&l=" + l : "";
+  j.async = true;
+  j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+  f.parentNode.insertBefore(j, f);
+})(window, document, "script", "dataLayer", "GTM-PJQ2VR4");`}
+      </Script>
       <Hero />
       <hr />
       <CaseStudies />
@@ -107,7 +121,7 @@ export default function Home() {
                 main: "Nadeem Khan",
                 title: "App Development Lead",
               },
-            }
+            },
           ]}
         />
       </section>
