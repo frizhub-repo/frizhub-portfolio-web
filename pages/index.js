@@ -10,6 +10,13 @@ import Script from "next/script";
 export default function Home() {
   return (
     <Layout title="FRIZHUB">
+      <script
+        src="https://app.wonderchat.io/scripts/wonderchat.js"
+        data-name="wonderchat"
+        data-address="app.wonderchat.io"
+        data-id="clfstlf7v003imc0ky17y346y"
+        defer
+      />
       <Script id="show-banner" strategy="afterInteractive">
         {`(function (w, d, s, l, i) {
   console.log("GTM LOADED");
@@ -63,7 +70,7 @@ export default function Home() {
               alt: "Shahrukh Idrees",
               overlay: {
                 main: "Shahrukh Idrees",
-                title: "Procuct Design Lead",
+                title: "Product Design Lead",
               },
             },
             {
