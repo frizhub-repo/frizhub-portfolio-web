@@ -23,13 +23,20 @@
   position: relative;
   width: 150px;
   height: 70px;
+  margin-left: 40px;
 }
 
 .infoOption {
-  color: black;
+  color: black !important;
   cursor: pointer;
   position: relative;
 }
+.infoOption > a {
+  color: black !important;
+  text-decoration: none;
+  font-style: inherit;
+}
+
 
 .infoOption:after {
   content: "";
@@ -59,7 +66,11 @@
 
 .scheduleBtnOption:hover {
   background-position: -100% 0%;
-  color: white;
+  color: white !important;
+}
+.scheduleBtn:hover>a {
+  /* background-position: -100% 0%; */
+  color: white !important;
 }
 
 .scheduleBtn {
@@ -71,13 +82,13 @@
   cursor: pointer;
   display: flex;
   transition: background-position 0.15s ease-in;
-  color: black;
+  color: black !important;
   align-items: center;
   text-transform: uppercase;
 }
 
 .scheduleBtn:hover {
-  color: white;
+  color: white !important;
 }
 
 .phoneIcon {
@@ -113,23 +124,28 @@
   .itemsContainer {
     max-width: 90%;
   }
+  
 }
 
 @media (min-width: 740px) {
   .menuBtnOption {
     display: none;
   }
+  
 }
 
 @media (max-width: 740px) {
   .infoOption {
-    display: none;
+    display:none;
   }
   .scheduleBtn {
     display: none;
   }
   .menuBtnOption {
     display: block;
+  }
+  .logoContainer {
+    margin: auto;
   }
 }
 
@@ -143,8 +159,10 @@
   .logoContainer {
     width: 100px;
     height: 60px;
+    margin: auto;
   }
   .menuBtn {
     padding: 3px;
   }
+
 }

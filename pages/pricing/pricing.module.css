@@ -1,0 +1,95 @@
+.heading {
+  background-repeat: no-repeat;
+  background-size: 360px;
+  background-position: 80px 100px;
+}
+.pricingPage {
+  font-family: inherit;
+  font-style: inherit;
+  margin-top: 70px;
+  width: 100%;
+
+  background-repeat: no-repeat !important;
+ 
+  position: 0px 0px;
+}
+.packagesContainer {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 110% 20%;
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 50px;
+  justify-content:center;
+}
+.textContainer {
+  max-width: 500px !important;
+ 
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.pricingcard{
+    transition: all 0.3s ease;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .pricingcard {
+    margin-top: 0 !important;
+
+  }
+  .heading {
+    background-size: 230px;
+    background-position: 88px 159px;
+  }
+  .pricingPage{
+    background-image: none;
+  }
+}
+@media only screen and (max-width: 1348px) {
+  .pricingcard {
+    margin-top: 0 !important;
+  }
+}
+@media only screen and (max-width: 1324px) {
+  .vectorImg {
+    display: none !important;
+    max-width: 0 !important;
+    min-width: 0 !important;
+    width: 0 !important;
+  }
+  .text {
+    padding: 20px;
+  }
+  .textContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:1290px) {
+    .pricingPage{
+        background-size: 315px;
+          
+        }
+}
+
+@media only screen and (max-width:1160px) {
+    .pricingPage{
+        background-size: 280px;
+          
+        }
+}
+
+
+@media only screen and (max-width:950px) {
+    .pricingPage{
+        background-size: 180px;
+          
+        }
+}

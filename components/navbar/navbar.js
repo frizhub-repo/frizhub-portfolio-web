@@ -7,9 +7,12 @@ import PhoneAndroidOutlinedIcon from "@material-ui/icons/PhoneAndroidOutlined";
 import CustomDrawer from "../customDrawer/customDrawer";
 import { scroller } from "react-scroll";
 import BasicModal from "../common/modal/modal";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Navbar() {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
+  const router = useRouter();
 
   function handleScheduleClick() {
     window.open("https://calendly.com/tabishmunir");
@@ -23,9 +26,21 @@ export default function Navbar() {
     <>
       <div className={styles.container}>
         <ul className={styles.itemsContainer}>
-          <li className={styles.infoOption} onClick={handleInfoClick}>
-            What we do?
+          <li>
+            <span className={styles.infoOption} onClick={handleInfoClick}>
+              What we do?
+            </span>
+            &nbsp; &nbsp;
+            <span className={styles.infoOption}>
+              <Link href="/pricing">Pricing</Link>
+            </span>
           </li>
+          {/* <li
+            className={styles.scheduleBtnOption}
+           
+          > */}
+          {/* </li> */}
+
           <li className={styles.logoContainer}>
             <Image src="/svgs/frizhub.svg" layout="fill" alt="nothing" />
           </li>
@@ -58,6 +73,11 @@ export default function Navbar() {
             name: "Schedule a call",
             icon: <PhoneAndroidOutlinedIcon />,
             onClick: handleScheduleClick,
+          },
+          {
+            name: "Pricing",
+            icon: <InfoOutlinedIcon />,
+            onClick: () => router.push("/pricing"),
           },
         ]}
       />

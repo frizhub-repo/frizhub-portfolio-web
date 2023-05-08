@@ -20,13 +20,13 @@ const style = {
 };
 const buttonStyle = {
   fontSize: "16px",
-  fontWeight: "700",
+  fontWeight: "inherit",
   cursor: "pointer",
   display: "flex",
   transition: "background-position 0.15s ease-in",
-  color: "black",
+  color: "inherit",
   alignItems: "center",
-  textTransform: "uppercase",
+  // textTransform: "",
 };
 
 export default function BasicModal({ buttonCaption }) {

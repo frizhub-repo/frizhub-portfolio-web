@@ -1,0 +1,129 @@
+.card {
+  padding: 30px 30px 15px 30px;
+  border-radius: 8px;
+  width: 250px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 6px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 6px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 6px -3px rgba(0, 0, 0, 0.75);
+}
+.popularTag {
+  box-shadow: 1px 1px 6px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 6px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 6px -3px rgba(0, 0, 0, 0.75);
+  border: 0 transparent;
+  padding: 5.4635px 10.6221px;
+  border-radius: 12px 12px 0 0;
+  background: #35ad8f;
+  font-size: 14.7708px;
+  color: white !important;
+  width: calc(100% + 38.5px);
+  font-family: inherit;
+  font-weight: 700;
+  margin-top: -57px;
+  margin-bottom: 25px;
+  margin-left: -30px;
+  text-align: center;
+  height: 25px;
+  line-height: 1.75;
+
+}
+.tag {
+  border: 0 transparent;
+  padding: 10.4635px 15.6221px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-size: 14.7708px;
+  color: black !important;
+  width: fit-content;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.packageDescription {
+  margin: 20px 0 !important;
+  font-weight: 300 !important;
+  font-size: 14.7708px !important;
+  line-height: 22px !important;
+
+}
+.packageDescription > div > label {
+  background-color: #c9fad6;
+  color: #1aa703;
+  padding: 2px 4.61586px;
+  border-radius: 3.5px;
+}
+
+.listItem {
+  height: 10px;
+  font-weight: 400;
+  font-size: 14.7708px;
+}
+
+.startTrialBtn1 {
+  background-color: black !important;
+  color: white !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 9.23px;
+  max-width: 276.03px;
+  height: 36.93px;
+  margin: 10px auto !important;
+  padding: 8.4635px 10.6221px !important;
+  border-radius: 3px !important;
+  font-weight: 500 !important;
+  text-transform: capitalize !important;
+}
+.startTrialBtn1:hover {
+  background-color: #ffb038 !important;
+}
+
+.startTrialBtn2 {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 9.23px;
+  width: 99% !important;
+  height: 36.93px;
+  margin: 10px auto 40px !important;
+  font-weight: 600 !important;
+  padding: 8.4635px 10.6221px !important;
+  border-radius: 3px !important;
+  text-transform: capitalize !important;
+}
+.startTrialBtn2:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.priceInfo {
+  font-weight: 600;
+  font-size: 14.7708px;
+  line-height: 34px;
+}
+
+.devider {
+  background-color: rgba(255, 255, 255, 0.781) !important;
+  margin: 20px 0 !important;
+}
+.devider2 {
+  margin: 20px 0 !important;
+}
+@media only screen and (max-width: 500px) {
+  .card {
+    max-width: 400px !important;
+    min-width: 250px !important;
+    margin: auto;
+    
+  }
+  .popularTag{
+    margin-top:-35px;
+  }
+}
