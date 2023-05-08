@@ -61,25 +61,7 @@
   font-size: 14.7708px;
 }
 
-.startTrialBtn1 {
-  background-color: black !important;
-  color: white !important;
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 9.23px;
-  max-width: 276.03px;
-  height: 36.93px;
-  margin: 10px auto !important;
-  padding: 8.4635px 10.6221px !important;
-  border-radius: 3px !important;
-  font-weight: 500 !important;
-  text-transform: capitalize !important;
-}
-.startTrialBtn1:hover {
-  background-color: #ffb038 !important;
-}
+
 
 .startTrialBtn2 {
   background-color: white !important;
@@ -92,7 +74,7 @@
   gap: 9.23px;
   width: 99% !important;
   height: 36.93px;
-  margin: 10px auto 40px !important;
+  margin: 10px auto !important;
   font-weight: 600 !important;
   padding: 8.4635px 10.6221px !important;
   border-radius: 3px !important;
@@ -115,6 +97,9 @@
 }
 .devider2 {
   margin: 20px 0 !important;
+}
+.skillsHeading{
+margin-top: 40px !important;
 }
 @media only screen and (max-width: 500px) {
   .card {

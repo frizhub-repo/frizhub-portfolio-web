@@ -43,6 +43,8 @@ const PricingCard = ({
       >
         {price}
       </Typography>
+      {price!==""?
+      <>
       &nbsp;&nbsp;
       <Typography
         variant="p"
@@ -61,38 +63,23 @@ const PricingCard = ({
         Excluding Vat
       </Typography>
       <Divider className={styles.devider2} />
+      </>
+      :""
+    }
       <Button
         variant="text"
         color="primary"
         className={styles.startTrialBtn2}
       >
         <BasicModal buttonCaption="Choose This Plan"></BasicModal>
-      </Button>
-      <Typography variant="p" fontWeight={700} color="initial" style={{marginTop:"20px"}}>
-        {infoTitle}
-      </Typography>
+      </Button>      
+        {(typeof details !== 'undefined' && details.length === 0)?"":<Typography variant="p" fontWeight={700} color="initial" className={styles.skillsHeading}><br/>Skills :</Typography>}
       <List>
-        {details.map((e, index) => {
+        {details.map((text, index) => {
           return (
             <ListItem style={{ marginLeft: "-18px" }} key={index}>
               <Typography variant="p" style={{ marginLeft: "5px" }}>
-                {e.text}&nbsp;&nbsp;
-                {e.isComing ? (
-                  <span
-                    style={{
-                      backgroundColor: "#C9FAD6",
-                      color: "#1AA703",
-                      fontSize: "11px",
-                      padding: "3px 5px",
-                      borderRadius: "3.5px",
-                   
-                    }}
-                  >
-                    New
-                  </span>
-                ) : (
-                  ""
-                )}
+                {text}
               </Typography>
             </ListItem>
           );

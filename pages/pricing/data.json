@@ -1,132 +1,59 @@
 [
   {
     "id": 1,
-    "tag": "Junior developer",
-    "description": "For all individuals and starters who want to start with domaining.",
+    "tag": "Junior Developer",
+    "description": "For all individual and companies with good development skills.",
     "price": "$25",
-    "priceInfo": "per hour",
+    "priceInfo": "/ hour",
     "isPopular": false,
-    "infoTitle": "Features Included:",
     "info": [
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": true,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": true
-      }
+      "Node JS",
+      "Nest JS",
+      "React",
+      "Angular",
+      "Next JS",
+      "Basic AWS",
+      "test Driven Development"
     ]
   },
   {
     "id": 2,
-    "tag": "Senior developer",
-    "description": "For professional domain <b> names investors </b> with a <label>big</label> portfolio.",
+    "tag": "Senior Developer",
+    "description": "For architect level knowledge requirments, deployments, backend structuring, etc.",
     "price": "$50",
-    "priceInfo": "per hour",
+    "priceInfo": "/ hour",
     "isPopular": true,
-    "infoTitle": "Features Included:",
     "info": [
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": true,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": true
-      }
+      "All skills of Junior Developer",
+      "Advance AWS",
+      "Schema",
+      "Architecture Design",
+      "Blockchain",
+      "Cryptography"
     ]
   },
   {
     "id": 3,
-    "tag": "Software testing",
-    "description": "For businessess, enterprise domain registrars and registries.",
+    "tag": "Software Testing",
+    "description": "Unit testing, application testing, automation, etc.",
     "price": "$20",
     "priceInfo": "/ hour",
     "isPopular": false,
-    "infoTitle": "Features Included:",
     "info": [
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": true,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": true
-      }
+      "Unit Testing",
+      "UAT Testing",
+      "Testing Automation",
+      "Testing Frameworks ecpertise"
     ]
   },
   {
     "id": 4,
-    "tag": " enterprise package",
-    "description": "<b>For businessess</b>, enterprise domain registrars and registries.",
+    "tag": " Enterprise Package",
+    "description": "An individual, or team of developers, designers, and quality assurance engineers",
     "price": "",
-    "priceInfo": "for price contact us",
+    "priceInfo": "",
     "isPopular": false,
-    "infoTitle": "Features Included:",
-    "info": [
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": true,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": true
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "tag": " asd asd",
-    "description": "For businessess, enterprise domain registrars and registries.",
-    "price": "",
-    "priceInfo": "contact for price",
-    "isPopular": false,
-    "infoTitle": "Features Included:",
-    "info": [
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": true,
-        "isComing": false
-      },
-      {
-        "text": "Access to All Features",
-        "isAvailable": false,
-        "isComing": true
-      }
-    ]
+    "infoTitle": "",
+    "info": []
   }
 ]

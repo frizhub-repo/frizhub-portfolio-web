@@ -67,12 +67,10 @@ const PricingPage = () => {
                   }}
                 >
                   <PricingCard
-                    cardType={"light"}
                     tag={e.tag}
                     description={e.description}
                     price={e.price}
                     priceInfo={e.priceInfo}
-                    infoTitle={e.infoTitle}
                     details={e.info}
                     isPopular={e.isPopular}
                   />
