@@ -28,11 +28,7 @@ export default function Navbar() {
         <ul className={styles.itemsContainer}>
           <li>
             <span className={styles.infoOption} onClick={handleInfoClick}>
-              What we do?
-            </span>
-            &nbsp; &nbsp;
-            <span className={styles.infoOption}>
-              <Link href="/pricing">Pricing</Link>
+              Case Studies
             </span>
           </li>
           {/* <li
@@ -46,8 +42,8 @@ export default function Navbar() {
           </li>
           <li className={styles.scheduleBtnOption}>
             <div className={styles.scheduleBtn}>
-              <span className={styles.phoneIcon}>&#9742;</span>
-              <BasicModal buttonCaption="SCHEDULE A CALL"></BasicModal>
+              <span className={styles.phoneIcon}></span>
+              <BasicModal buttonCaption="GET IN TOUCH"></BasicModal>
             </div>
           </li>
           <li className={styles.menuBtnOption}>

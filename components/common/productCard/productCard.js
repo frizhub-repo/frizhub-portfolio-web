@@ -51,12 +51,8 @@ export default function ProductCard({
         <Link href={linkTo}>
           <div className={styles.viewBtnContainer}>
             <button className={styles.viewBtn} style={{ color: color ?? "" }}>
-              View Case Study
+              View Detail
             </button>
-            <ArrowRightAltOutlinedIcon
-              className={styles.arrow}
-              fontSize="large"
-            />
           </div>
         </Link>
       </div>

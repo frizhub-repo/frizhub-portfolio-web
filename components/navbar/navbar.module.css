@@ -27,7 +27,9 @@
 }
 
 .infoOption {
-  color: black !important;
+  color: #1C2220 !important;
+  font-size: 20px;
+  font-weight: 500;
   cursor: pointer;
   position: relative;
 }
@@ -57,7 +59,7 @@
 }
 
 .scheduleBtnOption {
-  background-image: linear-gradient(to right, white 50%, black 50%);
+  background-image: linear-gradient(to right, #FBF6E9 50%, #1C2220 50%);
   background-size: 200% 100%;
   display: flex;
   align-items: center;
@@ -66,11 +68,11 @@
 
 .scheduleBtnOption:hover {
   background-position: -100% 0%;
-  color: white !important;
+  color: #FBF6E9 !important;
 }
 .scheduleBtn:hover>a {
   /* background-position: -100% 0%; */
-  color: white !important;
+  color: #FBF6E9 !important;
 }
 
 .scheduleBtn {
@@ -88,7 +90,7 @@
 }
 
 .scheduleBtn:hover {
-  color: white !important;
+  color: #FBF6E9 !important;
 }
 
 .phoneIcon {
@@ -97,7 +99,7 @@
 }
 
 .menuBtnOption {
-  background-image: linear-gradient(to right, white 50%, black 50%);
+  background-image: linear-gradient(to right, #FBF6E9 50%, black 50%);
   background-size: 200% 100%;
   transition: background-position 0.15s ease-in;
 }
@@ -117,7 +119,7 @@
 }
 
 .menuBtn:hover {
-  color: white;
+  color: #FBF6E9;
 }
 
 @media (max-width: 900px) {

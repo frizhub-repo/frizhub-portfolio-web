@@ -13,9 +13,8 @@
 }
 
 .header {
-  margin-bottom: 30px;
-  font-size: 84px;
-  font-weight: normal;
+  font-size: 5vw;
+  line-height: 1.3em;
 }
 
 .propList {
@@ -27,20 +26,22 @@
 
 .prop {
   text-transform: capitalize;
-  margin-right: 40px;
-  font-size: 18px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.3em;
 }
 
 .motiveTextContainer {
   position: absolute;
   right: 0;
   bottom: 10%;
-  max-width: 450px;
+  max-width: 550px;
 }
 
 .motiveText {
-  line-height: 200%;
-  font-weight: 300;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.3em;
 }
 
 @media (max-width: 1080px) {

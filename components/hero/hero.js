@@ -3,7 +3,7 @@ export default function Hero() {
   return (
     <div className={styles.container}>
       <div>
-        <h1 className={styles.header}>Custom Software Development</h1>
+        <h1 className={styles.header}>Solutions for startups, scale-ups, and enterprises</h1>
         <ul className={styles.propList}>
           <li className={styles.prop}>
             <span>&#9889;</span> Move Fast
@@ -18,8 +18,7 @@ export default function Hero() {
       </div>
       <div className={styles.motiveTextContainer}>
         <p className={styles.motiveText}>
-          Every solution is unique, but so are our tailored processes. To genuinely innovate, we foster
-          synergies beyond the established.
+        Ability proceeds from a fashion of skills, knowledge, understanding, and imagination experience.
         </p>
       </div>
     </div>

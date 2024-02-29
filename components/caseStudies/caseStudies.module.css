@@ -10,7 +10,7 @@
 
 .header {
   font-size: 64px;
-  font-weight: 400;
+  font-weight: 500;
   max-width: 70%;
 }
 
@@ -28,13 +28,13 @@
   max-width: 450px;
   font-size: 36px;
   font-weight: normal;
-  color: white;
+  color: #FBF6E9;
   margin-bottom: 70px;
 }
 
 .shapeText {
-  background-color: #ffb038;
-  color: black;
+  background-color: #00d1ca;
+  color: #1C2220;
 }
 
 .studiesContainer {
@@ -47,7 +47,7 @@
 }
 
 .studiesHeader {
-  font-weight: normal;
+  font-weight: 700;
   font-size: 48px;
   margin-bottom: 70px;
 }

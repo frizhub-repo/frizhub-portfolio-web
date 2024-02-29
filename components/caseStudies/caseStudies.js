@@ -8,15 +8,13 @@ export default function CaseStudies() {
     <Element name="caseStudies">
       <div className={styles.container} id="studiesContainer">
         <h1 className={styles.header}>
-          Every product is <span className={styles.uniqueText}>unique,</span>{" "}
+          Every product is <span className={styles.uniqueText}>unique</span>{", "}
           but so are our tailor-made processes.
         </h1>
         <div className={styles.studiesContainer}>
           <div className={styles.leftStudies}>
             <h2 className={styles.studiesHeader}>
-              Telemedicine
               <br />
-              Case Studies
             </h2>
             <Fade bottom>
               <ProductCard

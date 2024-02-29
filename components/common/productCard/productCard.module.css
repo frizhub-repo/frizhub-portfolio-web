@@ -50,7 +50,7 @@
 }
 
 .overview {
-  color: white;
+  color: #FBF6E9;
   font-size: 36px;
   margin: 10px 0 40px 0;
 }
@@ -62,12 +62,12 @@
 }
 
 .viewBtn {
-  color: white;
+  color: #FBF6E9;
   border: none;
   background-color: transparent;
   padding: 0px;
   transition: all 0.05s ease-in;
-  font-size: 14px;
+  font-size: 20px;
   cursor: pointer;
   position: relative;
 }

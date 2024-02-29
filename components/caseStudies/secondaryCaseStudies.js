@@ -30,7 +30,7 @@ export default function SecondaryCaseStudies() {
             <Fade bottom>
               <ProductCard
                 logo="/svgs/vakeelonline.svg"
-                bgColor="#FFD902"
+                bgColor="#FFC000"
                 specs={[
                   "Architechture",
                   "Full Stack Development",

@@ -66,14 +66,6 @@ export default function Home() {
               },
             },
             {
-              img: "images/members/shahrukh.png",
-              alt: "Shahrukh Idrees",
-              overlay: {
-                main: "Shahrukh Idrees",
-                title: "Product Design Lead",
-              },
-            },
-            {
               img: "images/members/atif.png",
               alt: "Atif Sikander",
               overlay: {
@@ -103,14 +95,6 @@ export default function Home() {
               overlay: {
                 main: "Humza Khalid",
                 title: "Full Stack Engineer",
-              },
-            },
-            {
-              img: "images/members/uzair.png",
-              alt: "Uzair Afzal",
-              overlay: {
-                main: "Uzair Afzal",
-                title: "Blockchain Engineer",
               },
             },
             {
