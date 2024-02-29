@@ -16,11 +16,11 @@ export default function Hero() {
           </li>
         </ul>
       </div>
-      <div className={styles.motiveTextContainer}>
+      {/* <div className={styles.motiveTextContainer}>
         <p className={styles.motiveText}>
         Ability proceeds from a fashion of skills, knowledge, understanding, and imagination experience.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
