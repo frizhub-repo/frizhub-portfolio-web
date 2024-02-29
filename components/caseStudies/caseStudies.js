@@ -74,7 +74,7 @@ export default function CaseStudies() {
                   "Brand Desgin",
                   "UX Design",
                 ]}
-                overview="Built with our white label solution, Dawiyini is a multi-lingual telemedicine company based out of Mautitania. Dawiyini aims to connect people in distant areas for tele-consultation and advise"
+                overview="Built with our white label solution, Dawiyini is a multi-lingual telemedicine company based out of Mauritania. Dawiyini aims to connect people in distant areas for tele-consultation and advise"
                 bottomSvg="/svgs/studies/study2.svg"
                 linkTo="case-studies/dawiyni"
               />
