@@ -3,7 +3,8 @@ export default function Hero() {
   return (
     <div className={styles.container}>
       <div>
-        <h1 className={styles.header}>Solutions for startups, scale-ups, and enterprises</h1>
+        <h1 className={styles.header}><span className={styles.uniqueText}>Code</span> with Confidence</h1>
+        <h1 className={styles.header}> Soar with Success</h1>
         <ul className={styles.propList}>
           <li className={styles.prop}>
             <span>&#9889;</span> Move Fast

@@ -18,11 +18,24 @@
 }
 
 .propList {
-  padding-top: 180px;
+  padding-top: 150px;
   list-style-type: none;
   display: flex;
   flex-direction: column;
   line-height: 2.2;
+}
+
+.uniqueText {
+  font-size: 5vw;
+  text-shadow: 3px;
+  line-height: 1.3em;
+  background: url("/images/unique-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  animation: uniqueTextAnimate 50s 0s infinite;
 }
 
 .prop {
