@@ -6,7 +6,7 @@ export default function Gallery() {
   return (
     <div className={styles.container}>
       <h1 className={styles.header}>
-        Culture is simply a shared way of doing something with a passion.
+        Inclusive Culture Where Every Voice Shapes Our Collective Goals
       </h1>
       <div className={styles.imagesContainer}>
         <Fade bottom>
