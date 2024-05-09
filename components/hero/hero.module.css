@@ -48,8 +48,12 @@
 .motiveTextContainer {
   position: absolute;
   right: 0;
-  bottom: 10%;
+  bottom: 0;
   max-width: 550px;
+}
+
+.badge{
+  width: 200px;
 }
 
 .motiveText {
