@@ -58,6 +58,14 @@ export default function Home() {
               },
             },
             {
+              img: "images/members/awan.png",
+              alt: "Usama Awan",
+              overlay: {
+                main: "Usama Awan",
+                title: "COO",
+              },
+            },
+            {
               img: "images/members/omer.png",
               alt: "Omer Faqiyan",
               overlay: {
