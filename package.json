@@ -2,9 +2,12 @@
   "name": "frizhub-portfolio-web",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^20"
+  },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && next build",
     "start": "next start",
     "lint": "next lint"
   },
