@@ -81,6 +81,7 @@ export default function Home() {
                 title: "Marketing Director",
               },
             },
+            
             {
               img: "images/members/omer.png",
               alt: "Omer Faqiyan",
