@@ -5,7 +5,7 @@ import { IconButton } from "@material-ui/core";
 import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
 
 export default function CustomCarousel({ slides, showLeftButton = false }) {
-  const [canScrollPrev, setCanScrollPrev] = React.useState(false);
+  const [canScrollPrev, setCanScrollPrev] = React.useState(true);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
@@ -13,24 +13,25 @@ export default function CustomCarousel({ slides, showLeftButton = false }) {
       loop: true,
       containScroll: "keepSnaps",
       draggable: true,
+      startIndex: -1,
     },
     typeof window !== "undefined" ? [WheelGesturesPlugin()] : []
   );
-
   const scrollPrev = React.useCallback(() => {
-    if (emblaApi) emblaApi.scrollTo(slides.length / 2);
+    setCanScrollPrev(true);
+    if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
   const onSelect = React.useCallback(() => {
+    setCanScrollPrev(true);
     if (!emblaApi) return;
-    setCanScrollPrev(emblaApi.canScrollPrev());
   }, [emblaApi]);
 
   React.useEffect(() => {
     if (!emblaApi) return;
     emblaApi.on("select", onSelect);
     onSelect();
-  }, [emblaApi, onSelect]);
+  }, [emblaApi, slides]);
 
   return (
     <div className="embla">
@@ -45,7 +46,7 @@ export default function CustomCarousel({ slides, showLeftButton = false }) {
       )}
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((slide, index) => (
+          {slides?.map((slide, index) => (
             <div className="embla__slide" key={index}>
               <div className="embla__slide__inner">
                 <img
