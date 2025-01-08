@@ -70,7 +70,7 @@ export default function Home() {
               alt: "Ameer Faizan",
               overlay: {
                 main: "Ameer Faizan",
-                title: "CMO",
+                title: "Marketing Director",
               },
             },
             {
@@ -78,7 +78,7 @@ export default function Home() {
               alt: "Muhammad Shehryar",
               overlay: {
                 main: "Muhammad Shehryar",
-                title: "CIO",
+                title: "Marketing Director",
               },
             },
             {
