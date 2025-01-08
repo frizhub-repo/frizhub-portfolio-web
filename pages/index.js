@@ -66,6 +66,22 @@ export default function Home() {
               },
             },
             {
+              img: "images/members/Ameer.png",
+              alt: "Ameer Faizan",
+              overlay: {
+                main: "Ameer Faizan",
+                title: "CMO",
+              },
+            },
+            {
+              img: "images/members/shehryar.png",
+              alt: "Muhammad Shehryar",
+              overlay: {
+                main: "Muhammad Shehryar",
+                title: "CIO",
+              },
+            },
+            {
               img: "images/members/omer.png",
               alt: "Omer Faqiyan",
               overlay: {
