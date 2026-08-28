@@ -19,7 +19,7 @@ export default function CaseStudy({
   images,
   color,
   pdfLink,
-  logoContainerWidth = "20vw",
+  logoContainerWidth = "11vw",
   logoContainerHeight = "10vh",
 }) {
   const router = useRouter();
